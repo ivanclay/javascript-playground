@@ -9,11 +9,11 @@ function forward(){
 }
 
 function decelerate(){
-    video.playbackRate +=0.1;
+    video.playbackRate -=0.1;
 }
 
 function accelerate(){
-    video.playbackRate -=0.1;
+    video.playbackRate +=0.1;
 }
 
 function play(){
