@@ -1,3 +1,3 @@
 # Controlling Videos
 
-![](demo/screeshot.png)
+![](assets/demo/screenshot.png)
