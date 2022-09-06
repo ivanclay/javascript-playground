@@ -1,3 +1,3 @@
-# Controlling Videos
+# Controlling Audio
 
 ![](assets/demo/audioControlsjs.gif)
