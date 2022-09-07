@@ -1,4 +1,4 @@
 # Programming Playground
 
-- [] Create files structure
-- [] Create first card
+- [x] Create files structure
+- [ ] Create first card
