@@ -45,3 +45,9 @@ select, button{
 option{
     background-color: #333;
 }
+
+select:disabled, 
+button:disabled{
+    
+    opacity: .1;
+}
