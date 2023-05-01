@@ -10,6 +10,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a{
+    display: block;
+    margin-top: 100px;
+    color: #fff;
+}
+
 header{
     background-color: cadetblue;
     padding: 15px;
