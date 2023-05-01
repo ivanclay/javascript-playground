@@ -12,7 +12,7 @@ speechText = (text) => {
     let ut = new SpeechSynthesisUtterance(text);
     ut.voice = voicesList[selectedVoice];
     window.speechSynthesis.speak(ut);
-    console.clear();
+    inputfile.value = '';
 }
 
 window.speechSynthesis.addEventListener('voiceschanged', () => {
@@ -45,7 +45,6 @@ function updateStatus(){
     }else{
         voices.removeAttribute('disabled');
         button.removeAttribute('disabled');
-        inputfile.value = '';
     }
 }
 
