@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: cadetblue;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main{
+    text-align: center;
+}
+
+textarea, select, button{
+    width: 300px;
+    border: 2px solid #999;
+    background: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+    color: #fff;
+    outline: 0;
+}
+
+textarea{
+    height: 100px;
+}
+
+select, button, input{
+    display: block;
+    margin: 15px auto;
+    font-weight: bold;
+}
+
+option{
+    background-color: #333;
+}
+
+select:disabled, 
+button:disabled{
+    
+    opacity: .1;
+}
