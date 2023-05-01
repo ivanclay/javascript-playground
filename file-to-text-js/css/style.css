@@ -36,7 +36,7 @@ textarea{
     height: 100px;
 }
 
-select, button, input{
+select, button, input[type=file]{
     display: block;
     margin: 15px auto;
     font-weight: bold;
@@ -50,4 +50,11 @@ select:disabled,
 button:disabled{
     
     opacity: .1;
+}
+
+.check + label{
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 5px;
+    margin: 15px auto;
 }

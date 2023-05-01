@@ -4,6 +4,17 @@ let button = document.querySelector('#button');
 let selectedVoice = 0;
 let voicesList = [];
 
+let inputfile = document.querySelector('#inputfile');
+let checkSpeakFromFile = document.querySelector('#speakFromFile');
+let checkLoadTextAreaAndSpeak = document.querySelector('#loadTextAreaAndSpeak');
+
+speechText = (text) => {
+    let ut = new SpeechSynthesisUtterance(text);
+    ut.voice = voicesList[selectedVoice];
+    window.speechSynthesis.speak(ut);
+    console.clear();
+}
+
 window.speechSynthesis.addEventListener('voiceschanged', () => {
     voicesList = window.speechSynthesis.getVoices();
         
@@ -19,11 +30,7 @@ window.speechSynthesis.addEventListener('voiceschanged', () => {
 
 button.addEventListener('click', () => {
     if(textarea.value !== ''){
-        let ut = new SpeechSynthesisUtterance(textarea.value);
-        ut.voice = voicesList[selectedVoice];
-        window.speechSynthesis.speak(ut);
-
-        
+        speechText(textarea.value);        
     }
 });
 
@@ -38,18 +45,22 @@ function updateStatus(){
     }else{
         voices.removeAttribute('disabled');
         button.removeAttribute('disabled');
+        inputfile.value = '';
     }
 }
 
 setInterval(updateStatus,1000);
 
-document.getElementById('inputfile')
-            .addEventListener('change', function() {
-              
-            var fr=new FileReader();
-            fr.onload=function(){
-                textarea.textContent=fr.result;
-            }
-              
-            fr.readAsText(this.files[0]);
-        })
+inputfile.addEventListener('change', function() {
+    var fr = new FileReader();
+    fr.onload = function(){
+        
+        if(checkSpeakFromFile.checked){
+            speechText(fr.result);
+        }else{
+            textarea.textContent = fr.result;
+        }
+    }
+        
+    fr.readAsText(this.files[0]);
+})
