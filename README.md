@@ -7,5 +7,5 @@
 - [Tic-Tac-Toe](https://ivanclay.github.io/playground/tictactoe-game)
 - [Memory Game](https://ivanclay.github.io/playground/memory-game)
 - [churrascometro](https://ivanclay.github.io/playground/churrascometro)
-- [Video Controller](https://ivanclay.github.io/playground/video-controller)
+<!-- - [Video Controller](https://ivanclay.github.io/playground/video-controller) -->
 
