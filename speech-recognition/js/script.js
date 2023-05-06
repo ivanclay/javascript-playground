@@ -1,9 +1,6 @@
 let textarea = document.querySelector('#textarea');
-let voices = document.querySelector('#voices');
 let button = document.querySelector('#button');
 let clear = document.querySelector('#clear');
-let selectedVoice = 0;
-let voicesList = [];
 let listening = false;
 
 const recognition = createRecognition();
