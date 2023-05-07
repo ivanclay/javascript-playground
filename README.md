@@ -56,6 +56,7 @@
 <!-- # Programming Playground -->
 
 <ul>
+ <li class=""><a href="https://ivanclay.github.io/playground/extract-text-from-image">Extract Text from Image</a></li>
     <li class=""><a href="https://ivanclay.github.io/playground/speech-recognition">
     Speech Recognition in JS</a></li>
     <li class=""><a href="https://ivanclay.github.io/playground/text-file-to-speech-js">Text File to Speech in JS</a></li>
