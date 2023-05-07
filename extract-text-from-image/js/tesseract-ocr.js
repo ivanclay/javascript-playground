@@ -117,7 +117,8 @@ function recognizeFile(file){
 
 		})
 		.then(function(data){
-			console.log(data)
+			// console.log('DATA ',data);
+			// console.log('DATA ',data['lines']);
 			progressUpdate({ status: 'done', data: data })
 		})
 }

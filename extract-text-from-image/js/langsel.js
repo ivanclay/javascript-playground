@@ -76,7 +76,7 @@ optionsSelect = () => {
         options+=`<option value="${item.value}" ${item.selected ? item.selected : ''}>${item.label}</option>`
     });
 
-    console.log(options);
+    // console.log(options);
     select.innerHTML = options;
 }
 
