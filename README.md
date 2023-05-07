@@ -1,7 +1,7 @@
 <style>
-    body{
+    /* body{
         background-color: #333;
-    }
+    } */
 
     ul {
     counter-reset: li; 
@@ -53,7 +53,7 @@
     }
 </style>
 
-# Programming Playground
+<!-- # Programming Playground -->
 
 <ul>
     <li class=""><a href="https://ivanclay.github.io/playground/speech-recognition">
