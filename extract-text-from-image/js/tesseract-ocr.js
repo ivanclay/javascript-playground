@@ -119,6 +119,11 @@ function recognizeFile(file){
 		.then(function(data){
 			// console.log('DATA ',data);
 			// console.log('DATA ',data['lines']);
+
+			const date = data['lines'].map((line)=> {
+				console.log('linha: ', line['text'].match(/(\d{1,4}([.\-/])\d{1,2}([.\-/])\d{1,4})/g));
+			});
+
 			progressUpdate({ status: 'done', data: data })
 		})
 }
