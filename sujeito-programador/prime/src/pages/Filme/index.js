@@ -10,6 +10,7 @@ function Filme(){
     const { id } = useParams();
     const navigate = useNavigate();
     const [filme,setFilme] = useState({});
+    const [favoritos,setFavoritos] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -45,6 +46,22 @@ function Filme(){
         )
     };
 
+    function salvarFilme(){
+        const lista = localStorage.getItem("@primeflix");
+
+        let filmesSalvos = JSON.parse(lista) || [];
+        const hasFilme= filmesSalvos
+                            .some((filmesSalvo) => filmesSalvo.id === filme.id);
+
+        if(hasFilme){
+            alert('Já na lista');
+        }
+        
+        filmesSalvos.push(filme);
+        localStorage.setItem("@primeflix", JSON.stringify(filmesSalvos));
+        alert('adicionado');
+    }
+
     return(
         <div className="filme-info">
                 <h1><strong>{filme.title}</strong></h1>
@@ -57,7 +74,7 @@ function Filme(){
                 <strong>Avaliação: {filme.vote_average.toFixed(1)}/10</strong>
 
                 <div className="area-button">
-                    <button>Salvar</button>
+                    <button onClick={salvarFilme}>Salvar</button>
                     <button>
                         <a target="blank" rel="external" href={`https://youtube.com/results?search_query=${filme.title} Trailer`}>Trailer</a>
                     </button>
