@@ -196,7 +196,6 @@ function App() {
   return (
     <div className="App">
       <h1>REACT FIREBASE</h1>
-      {'API KEY' + process.env.REACT_APP_FIREBASE_API_KEY}
 
       {
         user && (
