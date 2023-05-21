@@ -1,4 +1,4 @@
-import { db } from './firebaseConnection';
+import { db, auth } from './firebaseConnection';
 import './app.css';
 import { useEffect, useState } from 'react';
 import { 
@@ -9,14 +9,93 @@ import {
   getDoc, 
   getDocs, 
   updateDoc, 
-  deleteDoc } from 'firebase/firestore';
+  deleteDoc,
+  onSnapshot
+ } from 'firebase/firestore';
+
+ import { 
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  signOut
+  } from 'firebase/auth';
 
 function App() {
+
+  const [email, setEmail] = useState('');
+  const [senha, setSenha] = useState('');
+
+  const [user, setUser] = useState(false);
+  const [userDetail, setUserDetail] = useState({});
 
   const [titulo, setTitulo] = useState('');
   const [autor, setAutor] = useState('');
   const [idPost, setIdPost] = useState('');
   const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    
+    async function loadPosts(){
+      const unsub = onSnapshot(collection(db, 'posts'), (snapshot) => {
+        let listaPost = [];
+
+        snapshot.forEach((doc) => {
+          listaPost.push({
+            id: doc.id,
+            titulo: doc.data().titulo,
+            autor: doc.data().autor
+          });
+        });
+  
+        setPosts(listaPost);
+      });
+    }
+
+    loadPosts();
+
+  }, []);
+
+  async function logoutUsuario(){
+    await signOut(auth)
+    .then(() => {
+      alert('logout realizado');
+      setUser(false);
+      setUserDetail({});
+    })
+    .catch(()=>{
+
+    });
+  }
+
+  async function logarUsuario(){
+    await signInWithEmailAndPassword(auth, email, senha)
+    .then((value) => {
+      alert('logado');
+
+      setUserDetail({
+        uid: value.user.uid,
+        email: value.user.email
+      });
+
+      setUser(true);
+
+      setEmail('');
+      setSenha('');
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+  }
+
+  async function novoUsuario(){
+    await createUserWithEmailAndPassword(auth, email, senha)
+    .then(() => {
+      setEmail('');
+      setSenha('');
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+  }
 
   async function excluirPost(idPost){
     const postRef = doc(db, 'posts', idPost);
@@ -71,10 +150,6 @@ function App() {
     .catch((error) => { console.log(error)});
   }
 
-  useEffect(() => {
-    buscarPosts();
-  }, []);
-
   async function handleAdd(){
     //AUTO_ID
     await addDoc(collection(db, 'posts'), {
@@ -102,8 +177,42 @@ function App() {
     <div className="App">
       <h1>REACT FIREBASE</h1>
 
+      {
+        user && (
+          <div>
+            <strong>Seja bem vindo</strong>
+            <br/>
+            <span>{ userDetail.uid }</span> <br/>
+            <span>{ userDetail.email }</span><br/>
+            <button onClick={logoutUsuario}>Logout</button>
+          </div>
+          
+        )
+      }
+
       <div className='container'>
-        
+        <h2>Usuários</h2>
+      <label>E-mail:</label>
+         <input 
+            type='email'
+            value={email}
+            onChange={ (e) => setEmail(e.target.value) }
+            placeholder='email' />
+
+        <label>Senha:</label>
+         <input 
+            type='password'
+            value={senha}
+            onChange={ (e) => setSenha(e.target.value) }
+            placeholder='senha' />
+   
+   <button onClick={novoUsuario}>Cadastrar</button>
+   <button onClick={logarUsuario}>Login</button>
+   
+      </div>
+<br/><br/>
+      <div className='container'>
+      <h2>Posts</h2>
       <label>ID:</label>
          <input 
             type='text'
