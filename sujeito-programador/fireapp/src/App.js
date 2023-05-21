@@ -1,7 +1,15 @@
 import { db } from './firebaseConnection';
 import './app.css';
 import { useEffect, useState } from 'react';
-import { doc, setDoc, collection, addDoc, getDoc, getDocs, updateDoc } from 'firebase/firestore';
+import { 
+  doc, 
+  // setDoc, 
+  collection, 
+  addDoc, 
+  getDoc, 
+  getDocs, 
+  updateDoc, 
+  deleteDoc } from 'firebase/firestore';
 
 function App() {
 
@@ -9,6 +17,15 @@ function App() {
   const [autor, setAutor] = useState('');
   const [idPost, setIdPost] = useState('');
   const [posts, setPosts] = useState([]);
+
+  async function excluirPost(idPost){
+    const postRef = doc(db, 'posts', idPost);
+    await deleteDoc(postRef)
+    .then(() => {
+      buscarPosts();
+    })
+    .catch(() => {});
+  }
 
   async function editarPost(){
     const postRef = doc(db, 'posts', idPost);
@@ -118,6 +135,7 @@ function App() {
               return(
                 <li key={post.id}>
                   <span>{post.autor} - {post.titulo} <strong>({post.id})</strong></span>
+                  <button onClick={ () => excluirPost(post.id) }>Excluir</button>
                 </li>
               )
             })
