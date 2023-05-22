@@ -202,6 +202,7 @@ function App() {
             <strong>Seja bem vindo</strong>
             <br/>
             <span>{ userDetail.uid }</span> <br/>
+            <span>{ userDetail.uid }</span> <br/>
             <span>{ userDetail.email }</span><br/>
             <button onClick={logoutUsuario}>Logout</button>
           </div>
