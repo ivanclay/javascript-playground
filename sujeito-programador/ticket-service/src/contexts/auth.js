@@ -1,7 +1,7 @@
 import { useState, useEffect, createContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { auth, db } from '../services/firebaseConnection';
-import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { toast } from 'react-toastify';
 
@@ -13,8 +13,32 @@ function AuthProvider({children}){
     const navigate = useNavigate();
 
     async function signIn(email,senha){
-        console.log(email)
-        console.log(senha)
+        setLoadingAuth(true);
+
+        await signInWithEmailAndPassword(auth, email, senha)
+                .then(async (value) => {
+                    let uid = value.user.uid;
+                    const docRef = doc(db, 'users', uid);
+                    const docSnap = await getDoc(docRef);
+
+                    let userData = {
+                        uid: uid,
+                        nome: docSnap.data().nome,
+                        email: value.user.email,
+                        avatarUrl: docSnap.data().avatarUrl
+                    }
+
+                    setUser(userData);
+                        storageUser(userData);
+                        setLoadingAuth(false);
+                        toast.success(` ${userData.nome } bem vindo de volta`);
+                        navigate('/dashboard', { replace: true })
+
+                })
+                .catch((error) => {
+                    setLoadingAuth(false);
+                    toast.error(`Algo deu errado \r ${error}`);
+                });
     }
 
     async function signUp(email,senha, nome){
