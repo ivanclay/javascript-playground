@@ -1,7 +1,11 @@
 import { useState, useEffect, createContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { auth, db } from '../services/firebaseConnection';
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
+import { 
+    createUserWithEmailAndPassword, 
+    signInWithEmailAndPassword, 
+    signOut
+} from 'firebase/auth';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { toast } from 'react-toastify';
 
@@ -10,7 +14,30 @@ export const AuthContext = createContext({});
 function AuthProvider({children}){
     const [user, setUser] = useState(null);
     const [loadingAuth, setLoadingAuth] = useState(false);
+    const [loading, setLoading] = useState(false);
+
     const navigate = useNavigate();
+
+    useEffect(() => {
+        async function loadUser(){
+            const storageUser = localStorage.getItem('@userData');
+            if(storageUser){
+                setUser(JSON.parse(storageUser));
+                setLoading(false);
+            }
+
+            setLoading(false);
+        }
+
+        loadUser();
+    },[]);
+
+    async function logout(){
+        await signOut(auth);
+        localStorage.removeItem('@userData');
+        setUser(null);
+        toast.success('Logout feito com sucesso!');
+    }
 
     async function signIn(email,senha){
         setLoadingAuth(true);
@@ -85,7 +112,9 @@ function AuthProvider({children}){
                 user,
                 signIn,
                 signUp,
-                loadingAuth
+                logout,
+                loadingAuth,
+                loading
             }}
         >
             {children}
