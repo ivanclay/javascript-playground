@@ -1,65 +1,63 @@
-import { useState, useContext } from 'react'; 
-import { Link } from 'react-router-dom';
-
-import './signin.css';
+import { useState, useContext  } from 'react'
 import logo from '../../assets/logo.png';
-import { AuthContext } from '../../contexts/auth';
+import { Link } from 'react-router-dom'
+
+import { AuthContext } from '../../contexts/auth'
 
 export default function SignUp(){
-    const [nome, setNome] = useState('');
-    const [email, setEmail] = useState('');
-    const [senha, setSenha] = useState('');
-    
-    const { signUp, setLoadingAuth } = useContext(AuthContext);
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
 
+  const { signUp, loadingAuth } = useContext(AuthContext);
 
-    async function handleSubmit(e){
-        e.preventDefault();
+  async function handleSubmit(e){
+    e.preventDefault();
 
-        if(nome !== '' && email !== '' && senha !== ''){
-            await signUp(email, senha, nome);
-        }
+    if(name !== '' && email !== '' && password !== ''){
+     await signUp(email, password, name)
     }
 
-    return(
-      <div className='container-center'>
-        <div className='login'>
-            <div className='logo'>
-                <img src={logo} alt='logo'/>    
-            </div>
-
-            <form onSubmit={handleSubmit}>
-                <h1>Cadastrar Nova Conta</h1>
-
-                <input
-                    type='text'
-                    placeholder='digite o nome'
-                    value={nome}
-                    onChange={ (e) => setNome(e.target.value) }
-                />
-
-                <input
-                    type='text'
-                    placeholder='digite o email'
-                    value={email}
-                    onChange={ (e) => setEmail(e.target.value) }
-                />
-
-                <input
-                    type='password'
-                    placeholder='*****'
-                    value={senha}
-                    onChange={ (e) => setSenha(e.target.value) }
-                />
-                
-                <button type='submit'>
-                    { setLoadingAuth ? 'Carregando...' : 'Cadastrar' }
-                </button>
-            </form>
-
-            <Link to='/'>Já possui uma conta? Faça login</Link>
-
-        </div>  
-      </div>
-    )
   }
+
+  return(
+    <div className="container-center">
+      <div className="login">
+        <div className="login-area">
+          <img src={logo} alt="Logo do sistema de chamados" />
+        </div>
+
+        <form onSubmit={handleSubmit}>
+          <h1>Nova conta</h1>
+          <input 
+            type="text" 
+            placeholder="Seu nome"
+            value={name}
+            onChange={ (e) => setName(e.target.value) }
+          />
+
+          <input 
+            type="text" 
+            placeholder="email@email.com"
+            value={email}
+            onChange={ (e) => setEmail(e.target.value) }
+          />
+
+          <input 
+            type="password" 
+            placeholder="********"
+            value={password}
+            onChange={ (e) => setPassword(e.target.value) }
+          />
+
+          <button type="submit">
+            {loadingAuth ? 'Carregando...' : 'Cadastrar'}
+          </button>
+        </form>
+
+        <Link to="/">Já possui uma conta? Faça login</Link>
+
+      </div>
+    </div>
+  )
+}

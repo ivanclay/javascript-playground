@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 
-html,body, #root{
+html, body, #root{
   height: 100%;
 }
 
 body{
-  background-color: #efefef;
-  font-size: 14px;
+  font: 14px;
   font-family: sans-serif;
+  background-color: #EFEFEF;
 }
 
 a{
