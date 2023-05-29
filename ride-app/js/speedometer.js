@@ -2,6 +2,8 @@ const speedElement = document.querySelector("#speed")
 const startBtn = document.querySelector("#start")
 const stopBtn = document.querySelector("#stop")
 
+const positionShow = document.querySelector('#positionShow');
+
 let watchID = null
 let currentRide = null
 startBtn.addEventListener("click", () => {
@@ -11,13 +13,18 @@ startBtn.addEventListener("click", () => {
     function handleSuccess(position) {
         addPosition(currentRide, position)
         console.log(position)
+        positionShow.innerText = `Latitude: ${position.coords.latitude} - Longitude ${position.coords.longitude}`
+        positionShow.style = 'font-size=10px'
+
         speedElement.innerText = position.coords.speed ?
             (position.coords.speed * 3.6).toFixed(1) : 0
     }
+
     function handleError(error) {
         console.log(error.msg)
     }
-    const options = { enableHighAccuracy: true }
+
+    const options = { maximumAge: 0, enableHighAccuracy: true }
     currentRide = createNewRide()
     watchID = navigator.geolocation.watchPosition(handleSuccess, handleError, options)
     startBtn.classList.add("d-none")

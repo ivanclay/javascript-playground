@@ -61,10 +61,11 @@ function getDuration(ride) {
 
     const interval = (ride.stopTime - ride.startTime) / 1000
 
-    const minutes = Math.trunc(interval / 60)
-    const seconds = interval % 60
+    const hours   = Math.trunc(interval / 3600);
+    const minutes = Math.trunc(interval / 60);
+    const seconds = interval % 60;
 
-    return `${format(minutes, 2)}:${format(seconds, 2)}`
+    return `${format(hours, 2)}:${format(minutes, 2)}:${format(seconds, 2)}`
 }
 
 function getStartDate(ride) {

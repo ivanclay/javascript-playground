@@ -15,7 +15,7 @@ allRides.forEach(async ([id, value]) => {
     })
 
     const firstPosition = ride.data[0]
-    const firstLocationData = await getLocationData(firstPosition.latitude, firstPosition.longitude)
+        const firstLocationData = await getLocationData(firstPosition.latitude, firstPosition.longitude)
 
 
     const mapID = `map${ride.id}`
@@ -70,7 +70,6 @@ allRides.forEach(async ([id, value]) => {
         maxZoom: 20
     }).addTo(map);
 
-    L.marker([firstPosition.latitude, firstPosition.longitude]).addTo(map)
-
-
+    L.marker([firstPosition.latitude, firstPosition.longitude]).addTo(map);
+   
 })
