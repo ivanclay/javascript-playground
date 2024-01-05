@@ -28,3 +28,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Fonts
 [@fortawesome](https://www.npmjs.com/package/@fortawesome/angular-fontawesome)
+
+## API Weather
+http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=xxxxxxxxxx
