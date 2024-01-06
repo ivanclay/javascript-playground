@@ -64,7 +64,7 @@
     <li class=""><a href="https://ivanclay.github.io/playground/letter-words-counter">Letter and Words Counter</a></li>
     <li class=""><a href="https://ivanclay.github.io/playground/tictactoe-game">Tic-Tac-Toe</a></li>
     <li class=""><a href="https://ivanclay.github.io/playground/memory-game">Memory Game</a></li>
-    <li class=""><a href="https://ivanclay.github.io/playground/weather-app">Weather</a></li>
+    <!-- <li class=""><a href="https://ivanclay.github.io/playground/weather-app">Weather</a></li> -->
     <!-- <li class=""><a href="https://ivanclay.github.io/playground/churrascometro">churrascometro</a></li> -->
 </ul>
 
