@@ -15,13 +15,8 @@ private apiResponseMode = environment.WEATHER_API_MODE;
   constructor(private http: HttpClient) { }
 
   getWeatherData(cityName: string): Observable<any>{
-    return this.http
-        .get(
-            `${this.apiPathUrl}
-             ${cityName}
-             &units=${this.apiResponseUnits}
-             &mode=${this.apiResponseMode}
-             &APPID=${this.apiKey}`,
-             {});
+    let url = `${this.apiPathUrl}${cityName}&units=${this.apiResponseUnits}&mode=${this.apiResponseMode}&APPID=${this.apiKey}`;
+    console.log(url);
+    return this.http.get(url, {});
   }
 }
