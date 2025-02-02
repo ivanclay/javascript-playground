@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/estilo.css">
+<link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar">
+  <button class="openbtn menu" onclick="openCloseNav()">
+    <i class="icon fa fa-bars" aria-hidden="true"></i>
+  </button> 
+  <button class="dropdown-btn menu" onclick="filtrarMenu('My Courses','all-courses')">
+    <i class="icon fa fa-database" aria-hidden="true"></i>
+    <span>My Courses</span>  
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <ul class="dropdown-container ul-submenu">
+    <li>
+      <a href="#" class="submenu" onclick="filtrarMenu('My Courses','active-courses')">
+        <i class="fa fa-toggle-on" aria-hidden="true"></i>
+        <span>Active Courses</span>  
+      </a>
+    </li>    
+    <li>
+      <a href="#" class="submenu" onclick="filtrarMenu('My Courses','wishlist',)">
+        <i class="fa fa-list-alt" aria-hidden="true"></i>
+        <span>Wish List</span> 
+      </a>
+    </li>    
+    <li>
+      <a href="#" class="submenu" onclick="filtrarMenu('My Courses','noTechnology')">
+        <i class="fa fa-laptop" aria-hidden="true"></i>
+        <span>No Technology</span> 
+      </a>
+    </li>
+    <li>
+      <a href="#" class="submenu" onclick="filtrarMenu('My Courses','finished')">
+        <i class="fa fa-laptop" aria-hidden="true"></i>
+        <span>Finished</span> 
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+<div id="main">
+  
+  <div id="principal">
+
+  </div>
+</div>
+
+<script>
+
+</script>
+<script src="./js/menu.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html> 
