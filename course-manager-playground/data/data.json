@@ -455,7 +455,8 @@
         "link": "https://www.udemy.com/course/introducao-ao-protocolo-mqtt-para-automacao-industrial/",
         "image": "https://img-c.udemycdn.com/course/240x135/4313924_29ac_2.jpg",
         "platform": "Udemy",
-        "payment":"R$ "
+        "payment":"R$ ",
+        "tags":["ead","iot","mqtt","pay","udemy"]
       },
       {
         "title": "Docker do 0 à Maestria: Contêineres Desmistificados com K8s",
@@ -466,7 +467,8 @@
         "link": "https://www.udemy.com/course/docker-do-zero-a-maestria-conteinerizacao-desmistificada",
         "image": "https://img-c.udemycdn.com/course/240x135/2414176_91bc_8.jpg",
         "platform": "Udemy",
-        "payment":"R$ "
+        "payment":"R$ ",
+        "tags":["ead","docker","pay","udemy"]
       },
       {
         "title": "Docker essencial para a plataforma .NET (Bônus Kubernetes)",
@@ -477,7 +479,8 @@
         "end_date": "",
         "link": "https://www.udemy.com/course/docker-essencial-para-a-plataforma-net/",
         "image": "https://img-c.udemycdn.com/course/240x135/2193064_c98c_5.jpg",
-        "platform": "Udemy"
+        "platform": "Udemy",
+        "tags":["ead","docker","pay","udemy"]
       },
       {
         "title": "Imagens Avançadas com IA Generativa e Stable Diffusion​",
@@ -488,7 +491,8 @@
         "link": "https://www.udemy.com/course/imagens-avancadas-com-ia-generativa-stable-diffusion/",
         "image": "https://img-c.udemycdn.com/course/240x135/5893082_4e6a_3.jpg",
         "platform": "Udemy",
-        "payment":"R$ "
+        "payment":"R$ ",
+        "tags":["ead","GenAI","pay","udemy"]
       },
       {
         "title": "Terraform For Azure - Beginner to Expert​",
@@ -499,7 +503,8 @@
         "link": "https://www.udemy.com/course/terraform-for-azure-beginner-to-expert/",
         "image": "https://img-c.udemycdn.com/course/240x135/4986932_4488_2.jpg",
         "platform": "Udemy",
-        "payment":"R$ "
+        "payment":"R$ ",
+        "tags":["ead","terraform","azure","pay","udemy"]
       },
       {
         "title": "Cloud Bootcamp​",
@@ -510,7 +515,8 @@
         "link": "https://app.thecloudbootcamp.com/users/sign_in",
         "image": "https://import.cdn.thinkific.com/282370%2Fcustom_site_themes%2Fid%2FPvuKPnKCSreOO9lDjMkO_Logo_TCB.png",
         "platform": "Udemy",
-        "payment":"R$ "
+        "payment":"R$ ",
+        "tags":["ead","cloud","pay","thecloudbootcamp"]
       },
       {
         "title": "Full Cycle​",
@@ -521,7 +527,8 @@
         "link": "https://plataforma.fullcycle.com.br/login",
         "image": "https://plataforma.fullcycle.com.br/assets/fullCycle-03_NSSZv.svg",
         "platform": "Udemy",
-        "payment":"R$ "
+        "payment":"R$ ",
+        "tags":["ead","pay","fullcycle"]
       },
       {
         "title": "Devops PRO​",
@@ -532,7 +539,8 @@
         "link": "https://plataforma.devopspro.com.br/login",
         "image": "https://plataforma.devopspro.com.br/assets/devOps-CwEhO_4c.svg",
         "platform": "DevopsPro",
-        "payment":"R$ "
+        "payment":"R$ ",
+        "tags":["ead","devops","pay","devopspro"]
       },
       {
         "title": "AWS Serverless Design for IoT​",
@@ -543,7 +551,8 @@
         "link": "https://www.udemy.com/course/aws-serverless-design-for-iot",
         "image": "https://img-c.udemycdn.com/course/240x135/2694740_7f86_6.jpg",
         "platform": "Udemy",
-        "payment":"R$ "
+        "payment":"R$ ",
+        "tags":["ead","aws","serveless","pay","udemy"]
       },
       {
         "title": "Exploring AWS IoT​",
@@ -554,7 +563,8 @@
         "link": "https://www.udemy.com/course/exploring-aws-iot/",
         "image": "https://img-c.udemycdn.com/course/240x135/1483106_5672_5.jpg",
         "platform": "Udemy",
-        "payment":"R$ "
+        "payment":"R$ ",
+        "tags":["ead","aws","iot","pay","udemy"]
       },
       {
         "title": "AWS - Cloud Treinamentos​",
@@ -565,7 +575,8 @@
         "link": "https://academy.cloudtreinamentos.com/login/index.php",
         "image": "https://academy.cloudtreinamentos.com/pluginfile.php/1/core_admin/logo/0x200/1699413765/logotipo-cloud-hall.png",
         "platform": "Cloud Treinamentos",
-        "price":"R$ "
+        "price":"R$ ",
+        "tags":["ead","aws","pay","cloudtreinamentos"]
       },
       {
         "title": "Redis Expert Bootcamp​",
@@ -579,9 +590,9 @@
         "duration":2.5,
         "Instructor":"",
         "price":"R$ 345,80",
-        "certificate":"https://www.udemy.com/certificate/UC-P5OMCO0G/",
+        "certificate":"",
         "source_code":"",
-        "tags":["ead","gamification","pay","udemy"]
+        "tags":["ead","gamification","pay","hotmart"]
       }
       ]
     },
@@ -598,7 +609,8 @@
           "end_date": "-",
           "link": "https://web.dio.me/track/coding-future-back-end-dot-net?tab=path",
           "image": "https://hermes.dio.me/tracks/a6866950-fde5-41f1-b7b0-e96d2dbf0878.png",
-          "platform": "DIO"
+          "platform": "DIO",
+          "tags":["ead",".net","pay","dio"]
         },
         {
           "title": "Microsoft Azure Essentials",
@@ -609,7 +621,8 @@
           "end_date": "-",
           "link": "https://web.dio.me/track/microsoft-azure-essentials",
           "image": "https://hermes.dio.me/tracks/73b2de55-d67a-4dcc-8bea-4a16d0c4d30c.png",
-          "platform": "DIO"
+          "platform": "DIO",
+          "tags":["ead","azure","cloud","pay","dio"]
         },
         {
           "title": "Introdução à Visão Computacional",
@@ -620,7 +633,8 @@
           "end_date": "-",
           "link": "https://web.dio.me/",
           "image": "https://hermes.dio.me/courses/cover/1b3c08de-7e1b-4e79-8018-7de928c4d923_cover.png",
-          "platform": "DIO"
+          "platform": "DIO",
+          "tags":["ead","visaocomputacional","pay","dio"]
         },
         {
           "title": "Visão Computacional 3D e seus algoritmos",
@@ -631,7 +645,8 @@
           "end_date": "-",
           "link": "https://web.dio.me/",
           "image": "https://hermes.dio.me/courses/cover/63169f16-2c32-484e-b560-df1b53699a38_cover.png",
-          "platform": "DIO"
+          "platform": "DIO",
+          "tags":["ead","visaocomputacional","pay","dio"]
         },
         {
           "title": "Formação Microsoft AZ-900 Certification",
@@ -642,7 +657,8 @@
           "end_date": "-",
           "link": "https://web.dio.me/track/formacao-microsoft-az-900-certification",
           "image": "https://hermes.dio.me/tracks/47592c02-ea89-40c8-8362-81f560be3f16.png",
-          "platform": "DIO"
+          "platform": "DIO",
+          "tags":["ead","certification","azure","cloud","pay","dio"]
         },
         {
           "title": "Nexa - Engenharia de Prompts na AWS com Claude",
@@ -653,7 +669,8 @@
           "end_date": "-",
           "link": "https://web.dio.me/track/engenharia-prompts-aws/",
           "image": "https://hermes.dio.me/tracks/261135b9-67c9-4429-ad2d-418c11f1c34f.png",
-          "platform": "DIO"
+          "platform": "DIO",
+          "tags":["ead","aws","cloud","pay","dio"]
         },
         {
           "title": "Formação IoT Specialist",
@@ -664,7 +681,8 @@
           "end_date": "-",
           "link": "https://web.dio.me/track/formacao-iot-specialist/",
           "image": "https://hermes.dio.me/tracks/b963115b-65fc-470b-b87b-e988251b8a21.png",
-          "platform": "DIO"
+          "platform": "DIO",
+          "tags":["ead","iot","pay","dio"]
         },
         {
           "title": "Learn Rest Api's with .NET Core 8.0 2024",
@@ -675,7 +693,8 @@
           "end_date": " - ",
           "link": "https://www.udemy.com/course/learn-rest-apis-with-net-core/?utm_campaign=2024-05-24&utm_content=promo&utm_medium=3423738&utm_source=email-sendgrid&utm_term=6452872&couponCode=KEEPLEARNING",
           "image": "https://img-c.udemycdn.com/course/240x135/5977912_b284.jpg",
-          "platform": "Udemy"
+          "platform": "Udemy",
+          "tags":["ead","api",".net","pay","udemy"]
         }
       ]
     },
@@ -691,7 +710,8 @@
           "end_date": "-",
           "link": "https://dashboard.kiwify.com.br/course/8615cc69-4860-4eb1-94e5-df7b8d034b53/",
           "image": "https://aws-assets.kiwify.com.br/JYgFSTIZENUm8aj/FFCE20_6df26396f0cc46c0a36c91c4276cb15e.png",
-          "platform": "Kiwify"
+          "platform": "Kiwify",
+          "tags":["ead","calistenia","pay","kiwify"]
         },
         {
           "title": "Investalk - Renda Fixa",
@@ -701,7 +721,8 @@
           "end_date": "-",
           "link": "https://hotmart.com/pt-br/club/investalk/products/1634583/",
           "image": "https://hotmart.s3.amazonaws.com/product_pictures/c5f25648-167a-4847-bf43-e0edcacd1d79/capacursohotmart_20220604.png",
-          "platform": "Hotmart"
+          "platform": "Hotmart",
+          "tags":["ead","investalk","pay","hotmart"]
         },
         {
           "title": "Francês em 3 meses",
@@ -712,7 +733,8 @@
           "link": "https://hotmart.com/pt-br/club/frances-com-fabiana-nano/products/1878348/",
           "image": "https://hotmart.s3.amazonaws.com/product_pictures/eb30f27d-a1c9-49d5-914e-72f03a38ce21/logof3mht.jpg",
           "platform": "Hotmart",
-          "payment":"R$ 197,00 + R$ 97,00"
+          "payment":"R$ 197,00 + R$ 97,00",
+          "tags":["ead","frances","pay","hotmart"]
         },
         {
           "title": "Piano Bliss Premium - Vitalício",
@@ -723,7 +745,8 @@
           "link": "https://pianobliss.club.hotmart.com/lesson/d64lGXbEOj",
           "image": "https://hotmart.s3.amazonaws.com/product_pictures/cfe28e71-51be-4070-aa77-73770d142897/257788_190612232_933179434.png",
           "platform": "Hotmart",
-          "payment":"R$ 1.750,92"
+          "payment":"R$ 1.750,92",
+          "tags":["ead","piano","pay","hotmart"]
         },
         {
           "title": "Aulas de Teclado do Zero 2.0",
@@ -734,7 +757,8 @@
           "link": "https://hotmart.com/pt-br/club/spencerpablo/products/1106912/",
           "image": "https://hotmart.s3.amazonaws.com/product_pictures/72c9966e-6db5-4cd3-afe5-1618e047f1bd/teclado201080.png",
           "platform": "Hotmart",
-          "payment":"R$ 581,04"
+          "payment":"R$ 581,04",
+          "tags":["ead","piano","pay","hotmart"]
         },
         {
           "title": "Gavin's Elite Squad - English Course - [Bra]",
@@ -745,7 +769,8 @@
           "link": "https://www.gavinselitesquad.com/products/gavin-s-elite-squad",
           "image": "https://hotmart.s3.amazonaws.com/product_pictures/01278910-684f-4f3f-ae55-3c6d1bebb2b0/GavinsEliteSquad_Logo.png",
           "platform": "Hotmart",
-          "payment":"R$ 2.174,58"
+          "payment":"R$ 2.174,58",
+          "tags":["ead","ingles","pay","hotmart"]
         },
         {
           "title": "Gamificação e mecânicas lúdicas - 5 cursos em 1",
@@ -756,7 +781,8 @@
           "link": "https://hotmart.com/pt-br/club/universidade-andarilho/products/898191/",
           "image": "https://hotmart.s3.amazonaws.com/product_pictures/486d9309-aa87-4306-80ea-28dfe41c6cf8/gamificaoemecnicasldicas.png",
           "platform": "Hotmart",
-          "payment":"R$ 49,90"
+          "payment":"R$ 49,90",
+          "tags":["ead","gamification","pay","hotmart"]
         },
         {
           "title": "Produtividade, estratégia e evolução - ENTER THE DUNGEON",
@@ -768,7 +794,8 @@
           "link": "https://www.udemy.com/course/enter-the-dungeon/",
           "image": "https://img-c.udemycdn.com/course/240x135/1932262_c615.jpg",
           "platform": "Udemy",
-          "price":"R$ 19,90"
+          "price":"R$ 19,90",
+          "tags":["ead","gamification","pay","udemy"]
         },
         {
           "title": "Teachergabrielborges- inglês com filmes e séries",
@@ -779,7 +806,8 @@
           "link": "https://comunidadegabrielborges-oydbkq.club.hotmart.com/t",
           "image": "https://hotmart.s3.amazonaws.com/product_pictures/bb705a7e-3f56-419d-bfde-e7c16c73d32d/capahotmart3.png",
           "platform": "Hotmart",
-          "payment":"R$ 49,90"
+          "payment":"R$ 49,90",
+          "tags":["ead","ingles","pay","hotmart"]
         },
         {
           "title": "Free 4 Talk",
@@ -790,7 +818,8 @@
           "link": "https://www.free4talk.com/",
           "image": "https://www.free4talk.com/static/media/logo.409a5cde.svg",
           "platform": "Hotmart",
-          "payment":"R$ -"
+          "payment":"R$ -",
+          "tags":["ead","ingles","free","hotmart"]
         },
         {
           "title": "Mairo Vergara: Idiomas",
@@ -802,7 +831,8 @@
           "link": "https://curso.mairovergara.com/dashboard",
           "image": "https://curso.mairovergara.com/images/mairo-vergara.svg",
           "platform": "Hotmart",
-          "payment":"R$ -"
+          "payment":"R$ -",
+          "tags":["ead","ingles","free","hotmart"]
         }
       ]
     },
@@ -868,7 +898,7 @@
           "Instructor":"Andre Iacono",
           "price":"R$ 0.0",
           "certificate":"Gratuito sem certificado!",
-          "tags":["certificação","aws","amazon","cloud","free","udemy"]
+          "tags":["certification","aws","amazon","cloud","free","udemy"]
         },
         {
           "title": "SASS: Crie o seu primeiro projeto!",
