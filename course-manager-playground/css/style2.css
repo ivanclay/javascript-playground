@@ -3,7 +3,7 @@ body {
   margin: 20px;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
 }
@@ -13,23 +13,29 @@ body {
   flex-wrap: wrap;
 }
 
+/* Container flexível para os cards */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Espaço entre os cards */
+}
+
 .card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border: 1px solid #ddd;
   border-radius: 8px;
-  margin: 10px;
   padding: 10px;
-  width: 300px;
-  height: 450px;
+  width: 300px; /* Largura fixa para cada card */
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 0 0 auto; /* Impede que os cards cresçam ou encolham */
 }
 
 .card img {
   width: 100%;
-  height: 150px; /* Define uma altura fixa para as imagens */
-  object-fit: contain; /* Garante que a imagem se encaixe sem distorcer */
+  height: 150px;
+  object-fit: contain;
   border-radius: 8px;
   margin-bottom: 10px;
 }
@@ -37,7 +43,7 @@ body {
 .card h3 {
   font-size: 18px;
   margin: 10px 0;
-  height: 40px; 
+  height: 40px;
   display: flex;
   align-items: center;
 }
@@ -71,22 +77,67 @@ body {
   justify-content: center;
   margin-top: 10px;
   padding: 8px 12px;
-  background-color: #333; /* Cor de fundo do botão */
-  color: #fff; /* Cor do texto */
+  background-color: #333;
+  color: #fff;
   text-decoration: none;
   border-radius: 4px;
   text-align: center;
-  gap: 8px; /* Espaço entre o ícone e o texto */
+  gap: 8px;
 }
 
 .source-code-button i {
-  font-size: 18px; /* Tamanho do ícone */
+  font-size: 18px;
 }
 
 .source-code-button:hover {
-  background-color: #555; /* Cor de fundo ao passar o mouse */
+  background-color: #555;
 }
 
 .display-none {
   display: none;
+}
+
+.search-container {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-bar:focus {
+  border-color: #4CAF50;
+}
+
+.tags-container {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.tag {
+  background-color: #e9ecef;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tag:hover {
+  background-color: #dde1e5;
+}
+
+.tag.active {
+  background-color: #4CAF50;
+  color: white;
 }

@@ -14,7 +14,8 @@
           "end_date": "",
           "link": "https://www.udemy.com/course/blazor-ecommerce/?couponCode=ST11MT91624B",
           "image": "https://img-c.udemycdn.com/course/240x135/3673318_d7b6_7.jpg",
-          "platform": "Udemy"
+          "platform": "Udemy",
+          "tags":["ead","blazor","pay","udemy"]
         },
         {
           "title": "Blazor: Desenvolvendo Aplicações Web Interativas com .NET",
@@ -26,7 +27,8 @@
           "end_date": "",
           "link": "https://www.udemy.com/course/blazor-desenvolvendo-aplicacoes-web-interativas-com-net/",
           "image": "https://img-c.udemycdn.com/course/240x135/6157575_6f5c.jpg",
-          "platform": "Udemy"
+          "platform": "Udemy",
+          "tags":["ead","blazor","pay","udemy"]
         },
         {
           "title": "Blazor - The Complete Guide (WASM & Server .NET Core 5)",
@@ -38,7 +40,8 @@
           "end_date": "",
           "link": "https://www.udemy.com/course/blazor-the-complete-guide/?couponCode=ST11MT91624B",
           "image": "https://img-c.udemycdn.com/course/240x135/3692056_a48e_3.jpg",
-          "platform": "Udemy"
+          "platform": "Udemy",
+          "tags":["ead","blazor","pay","udemy"]
         },
         {
           "title": "Domine a Mensageria com RabbitMQ e NodeJS",
@@ -50,7 +53,8 @@
           "end_date": "",
           "link": "https://www.udemy.com/course/domine-a-mensageria-com-rabbitmq-para-apps-e-microservices/?couponCode=KEEPLEARNING",
           "image": "https://img-c.udemycdn.com/course/240x135/5605260_1fdf_14.jpg",
-          "platform": "Udemy"
+          "platform": "Udemy",
+          "tags":["ead","rabbitmq","pay","udemy"]
         },
         {
           "title": "RabbitMQ na Prática",
@@ -62,7 +66,8 @@
           "end_date": "",
           "link": "https://www.udemy.com/course/rabbitmq-na-pratica",
           "image": "https://img-c.udemycdn.com/course/240x135/4934520_74b7.jpg",
-          "platform": "Udemy"
+          "platform": "Udemy",
+          "tags":["ead","rabbitmq","pay","udemy"]
         },
         {
           "title": "Fullstack .NET",
@@ -72,7 +77,8 @@
           "end_date": "",
           "link": "https://balta.io/",
           "image": "https://baltaio.blob.core.windows.net/static/images/light/balta-logo.svg",
-          "platform": "Balta"
+          "platform": "Balta",
+          "tags":["ead",".net","pay","balta"]
         },
         {
           "title": "B7 Web",
@@ -83,7 +89,8 @@
           "end_date": "",
           "link": "https://alunos.b7web.com.br/",
           "image": "https://i0.wp.com/agenciars.com.br/wp-content/uploads/2021/03/b7web-curso-online.png",
-          "platform": "B7 Web"
+          "platform": "B7 Web",
+          "tags":["ead","pay","b7web"]
         },
         {
           "title": "DEV Samurai",
@@ -94,7 +101,8 @@
           "end_date": "",
           "link": "https://class.devsamurai.com.br/",
           "image": "https://class.devsamurai.com.br/assets/logo-ef6ee22864637a2fe661fd192e85c66c9dba6229e0dc6bf238882155fad5c168.svg",
-          "platform": "DEV Samurai"
+          "platform": "DEV Samurai",
+          "tags":["ead","pay","devsamurai"]
         },
         {
           "title": "AWS na Prática",
@@ -105,7 +113,8 @@
           "end_date": "",
           "link": "https://academy.estabil.is/courses/aws-na-pratica",
           "image": "https://import.cdn.thinkific.com/106383/Xn1qsZtoSfSHPfeLvmAQ_Thinkfic-Cards_AwsNaPratica.jpg",
-          "platform": "Estabil Academy"
+          "platform": "Estabil Academy",
+          "tags":["ead","pay","estabilacademy"]
         },
         {
           "title": "DevOps Professional",
@@ -116,7 +125,8 @@
           "end_date": "",
           "link": "https://academy.estabil.is/courses/take/devops-professional-online/",
           "image": "https://import.cdn.thinkific.com/106383/iPlI0LyQvG8xgYwaENRP_Thinkfic-Cards_DevOpsProfessional.jpg",
-          "platform": "Estabil Academy"
+          "platform": "Estabil Academy",
+          "tags":["ead","pay","estabilacademy"]
         },
         {
           "title": "Agile Scrum Foundation",
@@ -127,7 +137,8 @@
           "end_date": "",
           "link": "https://academy.estabil.is/courses/take/agile-scrum-foundation",
           "image": "https://import.cdn.thinkific.com/106383/l9PAAWY0QGKcgVhcW84h_Thinkfic-Cards_AgileScrumFoundation.jpg",
-          "platform": "Estabil Academy"
+          "platform": "Estabil Academy",
+          "tags":["ead","pay","estabilacademy"]
         },
         {
           "title": "DevOps Foundation",
@@ -138,7 +149,8 @@
           "end_date": "",
           "link": "https://academy.estabil.is/courses/take/devops-foundation",
           "image": "https://import.cdn.thinkific.com/106383/bloysYnJRYWyqooQ32Zx_Thinkfic-Cards_DevOpsFoundation.jpg",
-          "platform": "Estabil Academy"
+          "platform": "Estabil Academy",
+          "tags":["ead","pay","estabilacademy"]
         },
         {
           "title": "Rock .NET 5 Entity Framework",
@@ -149,7 +161,8 @@
           "end_date": "",
           "link": "https://www.udemy.com/course/rock-dot-net-entity-framework",
           "image": "https://img-c.udemycdn.com/course/240x135/3795524_c3d5_2.jpg",
-          "platform": "Udemy"
+          "platform": "Udemy",
+          "tags":["ead","entityframework","pay","udemy"]
         },
         {
           "title": "Arquitetura de Microsserviços do 0 com ASP.NET, .NET 6 e C#",
@@ -160,10 +173,11 @@
           "end_date": "",
           "link": "https://www.udemy.com/course/microservices-do-0-a-gcp-com-dot-net-6-kubernetes-e-docker/",
           "image": "https://img-c.udemycdn.com/course/240x135/3881196_c928_10.jpg",
-          "platform": "Udemy"
+          "platform": "Udemy",
+          "tags":["ead","microservice","pay","udemy"]
         },
         {
-          "title": "Mês do Kuebernetes",
+          "title": "Mês do Kubernetes",
           "progress": 0,
           "duration": 2,
           "acquisition_date": "30/01/2024",
@@ -171,7 +185,8 @@
           "end_date": "",
           "link": "https://www.linuxtips.io/course/mes-do-kubernetes",
           "image": "https://lwfiles.mycourse.app/633c72fac8c963ec854a3950-public/adf5ba6add97efe338969b49257e2edb.jpg",
-          "platform": "Linux Tips"
+          "platform": "Linux Tips",
+          "tags":["ead","kubernetes","free","linuxtips"]
         },
         {
           "title": "Terraform Essentials",
@@ -182,7 +197,8 @@
           "end_date": "",
           "link": "https://www.linuxtips.io/course/terraform-essentials",
           "image": "https://lwfiles.mycourse.app/633c72fac8c963ec854a3950-public/da50b59a5f210bd82c560c154c8b953f.png",
-          "platform": "Linux Tips"
+          "platform": "Linux Tips",
+          "tags":["ead","terraform","free","linuxtips"]
         },
         {
           "title": "Python Essentials",
@@ -193,7 +209,8 @@
           "end_date": "",
           "link": "https://www.linuxtips.io/course/python-essentials",
           "image": "https://lwfiles.mycourse.app/633c72fac8c963ec854a3950-public/95538cc5983cf849b91e0e943b4f935d.png",
-          "platform": "Linux Tips"
+          "platform": "Linux Tips",
+          "tags":["ead","python","free","linuxtips"]
         },
         {
           "title": "Linux Essentials",
@@ -204,7 +221,8 @@
           "end_date": "",
           "link": "https://www.linuxtips.io/course/linux-essentials",
           "image": "https://lwfiles.mycourse.app/633c72fac8c963ec854a3950-public/f450049d758f236409e842ad17cc5a23.png",
-          "platform": "Linux Tips"
+          "platform": "Linux Tips",
+          "tags":["ead","linux","free","linuxtips"]
         },
         {
           "title": "LINUXtips Experience",
@@ -215,7 +233,8 @@
           "end_date": "",
           "link": "https://www.linuxtips.io/course/sinta-a-experiencia",
           "image": "https://lwfiles.mycourse.app/633c72fac8c963ec854a3950-public/46cefdb8849ab59deaa5047fa33ec8f8.png",
-          "platform": "Linux Tips"
+          "platform": "Linux Tips",
+          "tags":["ead","linux","free","linuxtips"]
         },
         {
           "title": "Kubernetes Essentials",
@@ -226,7 +245,8 @@
           "end_date": "",
           "link": "https://www.linuxtips.io/course/kubernetes-essentials",
           "image": "https://lwfiles.mycourse.app/633c72fac8c963ec854a3950-public/8ff59775fed89842880896055467cd1e.png",
-          "platform": "Linux Tips"
+          "platform": "Linux Tips",
+          "tags":["ead","kubernetes","free","linuxtips"]
         },
         {
         "title": "Docker Essentials",
@@ -237,7 +257,8 @@
         "end_date": "",
         "link": "https://www.linuxtips.io/course/docker-essentials",
         "image": "https://lwfiles.mycourse.app/633c72fac8c963ec854a3950-public/293289f3baa428322a4baeab077491ea.png",
-        "platform": "Linux Tips"
+        "platform": "Linux Tips",
+        "tags":["ead","docker","free","linuxtips"]
       },
       {
         "title": "Agile Essentials",
@@ -248,7 +269,8 @@
         "end_date": "",
         "link": "https://www.linuxtips.io/course/agile-essentials",
         "image": "https://lwfiles.mycourse.app/633c72fac8c963ec854a3950-public/3fd37a9a66bf56d1eb267b34667d3fe9.png",
-        "platform": "Linux Tips"
+        "platform": "Linux Tips",
+        "tags":["ead","agile","free","linuxtips"]
       },
       {
         "title": "Programação em Python do básico ao avançado",
@@ -258,7 +280,8 @@
         "end_date": "",
         "link": "https://www.udemy.com/course/curso-de-programacao-em-python-do-basico-ao-avancado/",
         "image": "https://img-c.udemycdn.com/course/240x135/1927044_a831_2.jpg",
-        "platform": "Udemy"
+        "platform": "Udemy",
+        "tags":["ead","python","pay","udemy"]
       },
       {
         "title": "EXPERT: Industria 4.0 & IOT",
@@ -268,7 +291,8 @@
         "end_date": "",
         "link": "https://dashboard.kiwify.com.br/course/63b5ed06-dac4-4a3d-af54-2a2606bad6e1?lesson=922c93b1-59dd-4220-b70a-82e1c64e42c8/",
         "image": "https://aws-assets.kiwify.com.br/HkEt8phi02Xl7Ir/rockwell-9_674fd337e53340cabc85c310577352f4.png",
-        "platform": "Kiwify"
+        "platform": "Kiwify",
+        "tags":["ead","iot","free","kiwify"]
       },
       {
         "title": "Masterclass Automação industrial & Indústria4.0",
@@ -278,7 +302,8 @@
         "end_date": "",
         "link": "https://dashboard.kiwify.com.br/course/3a90800c-c217-48e9-b7eb-29f006f615f9/",
         "image": "https://aws-assets.kiwify.com.br/HkEt8phi02Xl7Ir/rockwell-10_d9267c6714fd4c80b83bde304e2fca43.png",
-        "platform": "Kiwify"
+        "platform": "Kiwify",
+        "tags":["ead","iot","free","kiwify"]
       },
       {
         "title": "Bootcamp - XP Inc. - Full Stack Developer",
@@ -288,7 +313,8 @@
         "end_date": "",
         "link": "https://web.dio.me/track/coding-the-future-xp-full-stack-developer/",
         "image": "https://hermes.dio.me/tracks/0a65ba61-a8fa-46d9-88aa-dbebb029583e.png",
-        "platform": "DIO"
+        "platform": "DIO",
+        "tags":["ead",".net","free","dio"]
       },
       {
         "title": "Build 3 Location Based Vue JS Web Apps Using Google Maps API",
@@ -299,7 +325,8 @@
         "link": "https://www.udemy.com/course/vuejs-google-maps-api-for-beginners/",
         "image": "https://img-c.udemycdn.com/course/240x135/2780734_e332_5.jpg",
         "platform": "Udemy",
-        "github": "https://github.com/ivanclay"
+        "github": "https://github.com/ivanclay",
+        "tags":["ead","vuejs","maps","free","udemy"]
       },
       {
         "title": "ADVC - Arquiteto de Valor Cloud",
@@ -310,7 +337,8 @@
         "link": "https://plataforma.cloudfaster.academy/",
         "image": "https://media.licdn.com/dms/image/D4D0BAQFKvdLhgzYqEw/company-logo_200_200/0/1694543883689/cloudfaster_logo?e=2147483647&v=beta&t=fKTm47At9OVI3lre3FzvPcMHbhQQ7Pre7RtjhOqR3Ck",
         "platform": "Cloud Faster",
-        "github": "https://github.com/ivanclay"
+        "github": "https://github.com/ivanclay",
+        "tags":["ead","cloud","aws","pay","cloudfaster"]
       },
       {
         "title": "Advanced Kubernetes/AKS Network & Infrastructure",
@@ -320,7 +348,8 @@
         "end_date": "",
         "link": "https://www.udemy.com/course/learn-aks-network-security/learn/lecture/39222348#overview",
         "image": "https://img-c.udemycdn.com/course/240x135/5139294_27d3.jpg",
-        "platform": "Udemy"
+        "platform": "Udemy",
+        "tags":["ead","kubernetes","azure","aks","pay","udemy"]
       },
       {
         "title": "Programação Shell Script - Start",
@@ -330,7 +359,8 @@
         "end_date": "",
         "link": "https://programacaoshellscriptstart.club.hotmart.com/lesson/64lkPZoQOj/01-passando-parametros-para-um-shell-script",
         "image": "https://hotmart.s3.amazonaws.com/product_pictures/422cc197-124c-4951-84ba-8c6d24ce9e59/AILSHELLSCRIPTSTART.png",
-        "platform": "Hotmart"
+        "platform": "Hotmart",
+        "tags":["ead","shellscript","pay","hotmart"]
       },
       {
         "title": "Curso de Programação do Filipe Deschamps",
@@ -341,7 +371,8 @@
         "link": "https://curso.dev/web/aulas",
         "image": "https://hotmart.s3.amazonaws.com/product_pictures/f34b1109-3f8e-41a8-adc4-dffe57bb9644/thumbhotmart.jpg",
         "platform": "Hotmart",
-        "payment":"R$ 300,00 (6x)"
+        "payment":"R$ 300,00 (6x)",
+        "tags":["ead","javascript","pay","hotmart"]
       },
       {
         "title": "Curso Desenvolvimento Web - Programador Br",
@@ -352,7 +383,8 @@
         "link": "https://programadorbr.club.hotmart.com/lesson/2z7r3VvVOj",
         "image": "https://hotmart.s3.amazonaws.com/product_pictures/dc321fee-5922-4053-9970-6cf9c5f65cec/ProgBr_LogoGradient_Blue.png",
         "platform": "Hotmart",
-        "payment":"R$ 713,70"
+        "payment":"R$ 713,70",
+        "tags":["ead","javascript","react","pay","udemy"]
       },
       {
         "title": "Rabiscando Padrões de Projeto",
@@ -363,7 +395,8 @@
         "link": "https://rabiscandopadroesdeprojeto.club.hotmart.com/lesson/0Ov9N35V7j",
         "image": "https://hotmart.s3.amazonaws.com/product_pictures/7d2aa31e-f048-4ea2-9ecf-6edb8681071d/Designsemnome3.png",
         "platform": "Hotmart",
-        "payment":"R$ 297,00"
+        "payment":"R$ 297,00",
+        "tags":["ead","designpatterns","pay","hotmart"]
       },
       {
         "title": "Fabrica de Aplicativos - React Native",
@@ -374,7 +407,8 @@
         "link": "https://fabricadeapps.club.hotmart.com/lesson/vROxzayyeD/",
         "image": "https://hotmart.s3.amazonaws.com/product_pictures/91886d52-1a62-44ff-b170-d36dcb67320f/capa1.png",
         "platform": "Hotmart",
-        "payment":"R$ 397,90"
+        "payment":"R$ 397,90",
+        "tags":["ead","reactnative","pay","hotmart"]
       },
       {
         "title": "Formação JavaScript Expert",
@@ -385,10 +419,11 @@
         "link": "https://play.ewacademy.com.br/area/vitrine",
         "image": "https://cdn.areademembros.com/files/instancia_3364/image/Sx4E4hKswKFNg3inVTd8SE1IQ7iUIk1wsUYAXxTs.png",
         "platform": " EW Academy",
-        "payment":"R$ 537,12 (4x)"
+        "payment":"R$ 537,12 (4x)",
+        "tags":["ead","javascript","pay","ewacademy"]
       },
       {
-        "title": "Elasticsearch e Elastic Stack: o Curso Completo!",
+        "title": "Elastictags e Elastic Stack: o Curso Completo!",
         "progress": 5,
         "acquisition_date": "-",
         "start_date": "-",
@@ -396,7 +431,8 @@
         "link": "https://www.udemy.com/course/learn-aks-network-security/learn/lecture/39222348#overview",
         "image": "https://img-c.udemycdn.com/course/240x135/3639332_436d_2.jpg",
         "platform": "Udemy",
-        "payment":"R$ "
+        "payment":"R$ ",
+        "tags":["ead","elastic","pay","udemy"]
       },
       {
         "title": "IOT - Protocolo MQTT com o software Mosquitto",
@@ -407,7 +443,8 @@
         "link": "https://www.udemy.com/course/iot-protocolo-mqtt-com-o-software-mosquitto/",
         "image": "https://img-c.udemycdn.com/course/240x135/4776728_dcdd_2.jpg",
         "platform": "Udemy",
-        "payment":"R$ "
+        "payment":"R$ ",
+        "tags":["ead","iot","mqtt","pay","udemy"]
       },
       {
         "title": "Introdução ao protocolo MQTT para automação industrial​",
@@ -544,7 +581,7 @@
         "price":"R$ 345,80",
         "certificate":"https://www.udemy.com/certificate/UC-P5OMCO0G/",
         "source_code":"",
-        "search":["ead","gamification","pay","udemy"]
+        "tags":["ead","gamification","pay","udemy"]
       }
       ]
     },
@@ -786,7 +823,7 @@
           "Instructor":"",
           "price":"R$ 19.90",
           "certificate":"https://www.udemy.com/certificate/UC-P5OMCO0G/",
-          "search":["ead","gamification","pay","udemy"]
+          "tags":["ead","gamification","pay","udemy"]
         },
         {
           "title": "Introdução à Gamificação",
@@ -801,7 +838,7 @@
           "Instructor":"",
           "price":"R$ 0.0",
           "certificate":"Gratuito sem certificado!",
-          "search":["ead","gamification","free","udemy"]
+          "tags":["ead","gamification","free","udemy"]
         },
         {
           "title": "Amazon DynamoDB para Iniciantes - Aprenda Banco NoSQL da AWS",
@@ -816,7 +853,7 @@
           "Instructor":"Rogerio Guimaraes",
           "price":"R$ 22.90",
           "certificate":"https://www.udemy.com/certificate/UC-2c82db6a-0299-4a7b-be6b-e25c686f837a/",
-          "search":["dynamodb","aws","amazon","nosql","pay","udemy"]
+          "tags":["dynamodb","aws","amazon","nosql","pay","udemy"]
         },
         {
           "title": "Guia Certificações Amazon AWS, Azure e Google Cloud",
@@ -831,7 +868,7 @@
           "Instructor":"Andre Iacono",
           "price":"R$ 0.0",
           "certificate":"Gratuito sem certificado!",
-          "search":["certificação","aws","amazon","cloud","free","udemy"]
+          "tags":["certificação","aws","amazon","cloud","free","udemy"]
         },
         {
           "title": "SASS: Crie o seu primeiro projeto!",
@@ -846,7 +883,7 @@
           "Instructor":"Matheus Battisti",
           "price":"R$ 0.0",
           "certificate":"Gratuito sem certificado!",
-          "search":["sass","css","free","udemy"]
+          "tags":["sass","css","free","udemy"]
         },
         {
           "title": "Formação Angular 13 - O início criando 7 projetos",
@@ -861,7 +898,7 @@
           "Instructor":"Marcio Casale de Souza",
           "price":"R$ 27.90",
           "certificate":"https://www.udemy.com/certificate/UC-cf31b0a4-7a1a-42b8-9ab1-275a422d7d26/",
-          "search":["frontend","angular","pay","udemy"]
+          "tags":["frontend","angular","pay","udemy"]
         },
         {
           "title": "Fundamentos de Domain-Driven Design (DDD)",
@@ -876,7 +913,7 @@
           "Instructor":"Eduardo Filipe Gomes",
           "price":"R$ 27.90",
           "certificate":"https://www.udemy.com/certificate/UC-5ab0485c-c55b-49a3-a83c-de042e43e40d/",
-          "search":["ddd","arquitetura","pay","udemy"]
+          "tags":["ddd","arquitetura","pay","udemy"]
         },
         {
           "title": "RabbitMQ: de A-Z com exemplos",
@@ -891,7 +928,7 @@
           "Instructor":"",
           "price":"R$ 22.90",
           "certificate":"https://www.udemy.com/certificate/UC-9f737e21-2aad-47d8-a249-d45736ad84a2/",
-          "search":["rabbitmq","pay","udemy"]
+          "tags":["rabbitmq","pay","udemy"]
         },
         {
           "title": "LaTeX do zero ao avançado",
@@ -906,7 +943,7 @@
           "Instructor":"Alexandre Nunes",
           "price":"R$ 23,99",
           "certificate":"https://www.udemy.com/certificate/UC-b710430e-8512-4368-b1b7-8cf5e79c6ba8/",
-          "search":["latex","subscription","udemy"]
+          "tags":["latex","subscription","udemy"]
         },
         {
           "title": "Docker: Ferramenta essencial para Desenvolvedores​",
@@ -920,7 +957,7 @@
           "price":"R$ 23,99",
           "Instructor":"Leonardo Moura Leitão",
           "certificate":"https://www.udemy.com/certificate/UC-ad613146-b0f9-4c5f-942c-133061669cb8/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com",
-          "search":["docker","pay","udemy"]
+          "tags":["docker","pay","udemy"]
         },
         {
           "title": "Testes automatizados com Cypress - Avançado​",
@@ -934,7 +971,7 @@
           "price":"R$ 27,90",
           "Instructor":"Walmyr Filho",
           "certificate":"https://www.udemy.com/certificate/UC-b44acaae-706a-462b-96df-cdae4bbce361/",
-          "search":["cypress","teste","pay","udemy"]
+          "tags":["cypress","teste","pay","udemy"]
         },
         {
           "title": "Boas práticas em automação de testes com Cypress​",
@@ -949,7 +986,7 @@
           "duration": 3,
           "Instructor":"Walmyr Filho",
           "certificate":"https://www.udemy.com/certificate/UC-22588586-bcdb-487b-a821-2f0df849fbe3/",
-          "search":["cypress","teste","pay","udemy"]
+          "tags":["cypress","teste","pay","udemy"]
         },
         {
           "title": "Testes automatizados com Cypress (intermediário)​",
@@ -964,7 +1001,7 @@
           "duration": 2.5,
           "Instructor":"Walmyr Filho",
           "certificate":"https://www.udemy.com/certificate/UC-f4011eac-41df-401e-9448-bd2526f7c136/",
-          "search":["cypress","teste","pay","udemy"]
+          "tags":["cypress","teste","pay","udemy"]
         },
         {
           "title": "Segurança em APIs ASP.NET com JWT e Bearer Authentication",
@@ -980,7 +1017,7 @@
           "Instructor":"Balta",
           "certificate":"https://balta.io/certificados/e1691fef-f49e-41a2-81f5-9699c7f6bb76",
           "source_code":"https://github.com/ivanclay/JwtAspNet",
-          "search":["segurança","jwt",".net","pay","balta.io"]
+          "tags":["segurança","jwt",".net","pay","balta.io"]
         },
         {
           "title": "Fundamentos dos Microsserviços​",
@@ -996,7 +1033,7 @@
           "Instructor":"Balta",
           "certificate":"https://balta.io/certificados/b0dbb31c-db62-4202-bb1a-58098122718d",
           "source_code":"",
-          "search":["microservice",".net","pay","balta.io"]
+          "tags":["microservice",".net","pay","balta.io"]
         },
         {
           "title": "Insomnia Rest para Requisições HTTP​",
@@ -1012,7 +1049,7 @@
           "Instructor":"Manoel Fernando Neto",
           "certificate":"https://www.udemy.com/certificate/UC-3bb63ae9-70b5-4bd8-904f-5d8023e53b82/",
           "source_code":"",
-          "search":["cypress","teste","pay","udemy"]
+          "tags":["cypress","teste","pay","udemy"]
         },
         {
           "title": "Cypress, do Zero à Nuvem​",
@@ -1028,7 +1065,7 @@
           "Instructor":"Walmyr Filho",
           "certificate":"https://www.udemy.com/certificate/UC-b6b2c6be-9fe9-4b6c-ac66-ba38c99fd1ea/",
           "source_code":"",
-          "search":["cypress","teste","pay","udemy"]
+          "tags":["cypress","teste","pay","udemy"]
         },
         {
           "title": "Introdução a DevOps​",
@@ -1044,7 +1081,7 @@
           "price":"R$ 0,00",
           "certificate":"https://certificado.devopspro.com.br/certificado?code=999d0354-68f4-4870-9de3-362cdbb2bb38",
           "source_code":"",
-          "search":["devops","pay","devopspro"]
+          "tags":["devops","pay","devopspro"]
         },
         {
           "title": "Linux​",
@@ -1060,7 +1097,7 @@
           "price":"R$ 0,00",
           "certificate":"https://certificado.devopspro.com.br/certificado?code=e34833ba-9b2b-4784-a7d9-b009547aa07e",
           "source_code":"",
-          "search":["linux","pay","devopspro"]
+          "tags":["linux","pay","devopspro"]
         },
         {
           "title": "Git e Github para iniciantes​",
@@ -1076,11 +1113,9 @@
           "price":"R$ 0,00",
           "certificate":"Gratuito sem certificado!",
           "source_code":"",
-          "search":["git", "github","free","udemy"]
+          "tags":["git", "github","free","udemy"]
         }
       ]
     }
   ]
 }
-
-  
