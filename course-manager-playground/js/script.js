@@ -1,4 +1,76 @@
-// Função para renderizar os cursos com estrutura separada para imagem, título, conteúdo e botão
+// // Função para renderizar os cursos com estrutura separada para imagem, título, conteúdo e botão
+// function renderCourses(containerId, courses) {
+//   const container = document.getElementById(containerId);
+//   container.innerHTML = ''; // Limpa o container antes de renderizar novos itens
+
+//   // Cria um container flexível para os cards
+//   const cardsContainer = document.createElement('div');
+//   cardsContainer.className = 'cards-container'; // Adiciona uma classe para estilização
+//   container.appendChild(cardsContainer);
+
+//   for (var i = 0; i < courses.length; i++) {
+//     const card = document.createElement('div');
+//     card.className = 'card';
+
+//     // Cria elementos separados
+//     const image = document.createElement('img');
+//     image.className = 'img-course-item';
+//     image.src = courses[i].image;
+//     image.alt = courses[i].title;
+
+//     const title = document.createElement('h3');
+//     title.textContent = courses[i].title;
+
+//     const platform = document.createElement('p');
+//     platform.innerHTML = `<strong>Plataforma:</strong> ${courses[i].platform}`;
+
+//     const progress = document.createElement('p');
+//     progress.innerHTML = `<strong>Progresso:</strong> ${courses[i].progress}%`;
+
+//     const startDate = document.createElement('p');
+//     startDate.innerHTML = `<strong>Início:</strong> ${courses[i].start_date}`;
+
+//     const endDate = document.createElement('p');
+//     endDate.innerHTML = `<strong>Término:</strong> ${courses[i].end_date || 'Em andamento'}`;
+
+//     const link = document.createElement('a');
+//     link.href = courses[i].link;
+//     link.target = '_blank';
+//     link.textContent = 'Acessar curso';
+//     link.className = 'course-button';
+
+//     const link2certificate = document.createElement('a');
+//     link2certificate.href = courses[i].certificate;
+//     link2certificate.target = '_blank';
+//     link2certificate.textContent = courses[i].certificate == 'Gratuito sem certificado!' ? 'Gratuito sem certificado!' : 'Acessar certificado';
+//     link2certificate.className = courses[i].certificate ? 'course-button' : 'course-button-none';
+
+//     const linkbuttomGit = document.createElement('a');
+//     linkbuttomGit.href = courses[i].source_code;
+//     linkbuttomGit.target = '_blank';
+//     linkbuttomGit.textContent = courses[i].source_code == '' ? '' : 'Acessar Código';
+//     linkbuttomGit.className = courses[i].source_code ? 'source-code-button' : 'display-none';
+
+//     const iconSource = document.createElement('i');
+//     iconSource.className = 'fab fa-github';
+//     linkbuttomGit.appendChild(iconSource);
+
+//     // Adiciona os elementos ao card
+//     card.appendChild(image);
+//     card.appendChild(title);
+//     card.appendChild(platform);
+//     card.appendChild(progress);
+//     card.appendChild(startDate);
+//     card.appendChild(endDate);
+//     card.appendChild(link);
+//     card.appendChild(linkbuttomGit);
+//     card.appendChild(link2certificate);
+
+//     // Adiciona o card ao container flexível
+//     cardsContainer.appendChild(card);
+//   }
+// }
+
 function renderCourses(containerId, courses) {
   const container = document.getElementById(containerId);
   container.innerHTML = ''; // Limpa o container antes de renderizar novos itens
@@ -18,14 +90,26 @@ function renderCourses(containerId, courses) {
     image.src = courses[i].image;
     image.alt = courses[i].title;
 
+    // Cria a barra de progresso
+    const progressBarContainer = document.createElement('div');
+    progressBarContainer.className = 'progress-bar-container';
+
+    const progressBar = document.createElement('div');
+    progressBar.className = 'progress-bar';
+    progressBar.style.width = `${courses[i].progress}%`;
+
+    const progressTooltip = document.createElement('div');
+    progressTooltip.className = 'progress-tooltip';
+    progressTooltip.textContent = `${courses[i].progress}%`;
+
+    progressBarContainer.appendChild(progressBar);
+    progressBarContainer.appendChild(progressTooltip);
+
     const title = document.createElement('h3');
     title.textContent = courses[i].title;
 
     const platform = document.createElement('p');
     platform.innerHTML = `<strong>Plataforma:</strong> ${courses[i].platform}`;
-
-    const progress = document.createElement('p');
-    progress.innerHTML = `<strong>Progresso:</strong> ${courses[i].progress}%`;
 
     const startDate = document.createElement('p');
     startDate.innerHTML = `<strong>Início:</strong> ${courses[i].start_date}`;
@@ -57,9 +141,9 @@ function renderCourses(containerId, courses) {
 
     // Adiciona os elementos ao card
     card.appendChild(image);
+    card.appendChild(progressBarContainer); // Adiciona a barra de progresso
     card.appendChild(title);
     card.appendChild(platform);
-    card.appendChild(progress);
     card.appendChild(startDate);
     card.appendChild(endDate);
     card.appendChild(link);
