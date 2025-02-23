@@ -1,3 +1,6 @@
+// URL da imagem padrão
+const defaultImage = "../assets/no-image.jpg";
+
 function renderCourses(containerId, courses) {
   const container = document.getElementById(containerId);
   container.innerHTML = ""; // Limpa o container antes de renderizar novos itens
@@ -18,8 +21,14 @@ function renderCourses(containerId, courses) {
     // Adiciona a imagem
     const image = document.createElement("img");
     image.className = "img-course-item";
-    image.src = courses[i].image;
+    image.src = courses[i].image || defaultImage;
     image.alt = courses[i].title;
+
+    // Define a imagem padrão caso a imagem original não carregue
+    image.onerror = function () {
+      this.src = defaultImage; // Substitui a imagem por uma imagem padrão em caso de erro
+    };
+
     front.appendChild(image);
 
     // Adiciona a barra de progresso
@@ -102,18 +111,37 @@ function renderCourses(containerId, courses) {
       buttonContainer.appendChild(linkbuttomGit);
     }
 
-    // Adiciona o botão "Acessar Certificado" (se houver certificado)
+    // Adiciona o botão "Acessar Certificado"
     if (courses[i].certificate) {
       const link2certificate = document.createElement("a");
-      link2certificate.href = courses[i].certificate;
-      link2certificate.target = "_blank";
-      link2certificate.textContent =
-        courses[i].certificate === "Gratuito sem certificado!"
-          ? "Gratuito sem certificado!"
-          : "Acessar certificado";
-      link2certificate.className = "course-button";
+
+      // Verifica se o curso é gratuito sem certificado
+      if (courses[i].certificate === "Gratuito sem certificado!") {
+        link2certificate.textContent = "Gratuito sem certificado!";
+        link2certificate.className = "course-button disabled"; // Adiciona uma classe para o botão desabilitado
+        link2certificate.style.pointerEvents = "none"; // Desabilita o clique
+        link2certificate.style.opacity = "0.6"; // Torna o botão mais transparente
+      } else {
+        link2certificate.href = courses[i].certificate;
+        link2certificate.target = "_blank";
+        link2certificate.textContent = "Acessar certificado";
+        link2certificate.className = "course-button";
+      }
+
       buttonContainer.appendChild(link2certificate);
     }
+    // // Adiciona o botão "Acessar Certificado" (se houver certificado)
+    // if (courses[i].certificate) {
+    //   const link2certificate = document.createElement("a");
+    //   link2certificate.href = courses[i].certificate;
+    //   link2certificate.target = "_blank";
+    //   link2certificate.textContent =
+    //     courses[i].certificate === "Gratuito sem certificado!"
+    //       ? "Gratuito sem certificado!"
+    //       : "Acessar certificado";
+    //   link2certificate.className = "course-button";
+    //   buttonContainer.appendChild(link2certificate);
+    // }
 
     // Adiciona o container de botões ao front
     front.appendChild(buttonContainer);
@@ -127,6 +155,16 @@ function renderCourses(containerId, courses) {
     // Adiciona o front e o back ao card
     card.appendChild(front);
     card.appendChild(back);
+
+//     // Adiciona o evento de flip quando o mouse entra no card
+// card.addEventListener("mouseenter", function () {
+//   this.classList.add("flipped"); // Adiciona a classe "flipped"
+// });
+
+// Retorna ao estado original quando o mouse sai do card
+card.addEventListener("mouseleave", function () {
+  this.classList.remove("flipped"); // Remove a classe "flipped"
+});
 
     // Adiciona o evento de clique para o efeito de flip
     card.addEventListener("click", function () {

@@ -993,7 +993,7 @@
       "link": "https://dashboard.kiwify.com.br/course/63b5ed06-dac4-4a3d-af54-2a2606bad6e1?lesson=922c93b1-59dd-4220-b70a-82e1c64e42c8/",
       "image": "https://aws-assets.kiwify.com.br/HkEt8phi02Xl7Ir/rockwell-9_674fd337e53340cabc85c310577352f4.png",
       "platform": "Kiwify",
-      "tags": ["ead", "iot", "free", "kiwify"],
+      "tags": ["ead", "iot", "pay", "kiwify"],
       "category": "active"
     },
     {
@@ -1005,7 +1005,7 @@
       "link": "https://dashboard.kiwify.com.br/course/3a90800c-c217-48e9-b7eb-29f006f615f9/",
       "image": "https://aws-assets.kiwify.com.br/HkEt8phi02Xl7Ir/rockwell-10_d9267c6714fd4c80b83bde304e2fca43.png",
       "platform": "Kiwify",
-      "tags": ["ead", "iot", "free", "kiwify"],
+      "tags": ["ead", "iot", "pay", "kiwify"],
       "category": "active"
     },
     {
@@ -1017,7 +1017,7 @@
       "link": "https://web.dio.me/track/coding-the-future-xp-full-stack-developer/",
       "image": "https://hermes.dio.me/tracks/0a65ba61-a8fa-46d9-88aa-dbebb029583e.png",
       "platform": "DIO",
-      "tags": ["ead", ".net", "free", "dio"],
+      "tags": ["ead", ".net", "pay", "dio"],
       "category": "active"
     },
     {
@@ -1030,7 +1030,7 @@
       "image": "https://img-c.udemycdn.com/course/240x135/2780734_e332_5.jpg",
       "platform": "Udemy",
       "github": "https://github.com/ivanclay",
-      "tags": ["ead", "vuejs", "maps", "free", "udemy"],
+      "tags": ["ead", "vuejs", "maps", "pay", "udemy"],
       "category": "active"
     },
     {
@@ -1352,8 +1352,44 @@
       "price": "",
       "certificate": "",
       "sourceCode": "",
-      "tags": ["ead", "git","github", "free", "udemy"],
+      "tags": ["ead", "git", "github", "free", "udemy"],
       "category": "active"
+    },
+    {
+      "title": "Fundamentos de GIT​",
+      "progress": 98,
+      "acquisitionDate": "09/07/2020",
+      "startDate": "09/07/2020",
+      "endDate": "-",
+      "link": "https://app.b7web.com.br/course/fundamentos-de-git",
+      "image": "https://media.licdn.com/dms/image/v2/D4D12AQGZ2Hek_UgBsg/article-cover_image-shrink_423_752/article-cover_image-shrink_423_752/0/1689418463906?e=1746057600&v=beta&t=UWeHUCzxKxM6llcBclEhjmOe6-WkGzHKep-nIPf-0cI",
+      "platform": "B7 Web",
+      "duration": 1,
+      "instructor": "",
+      "price": "0",
+      "certificate": "",
+      "sourceCode": "",
+      "tags": ["ead", "git", "pay", "b7web"],
+      "category": "active",
+      "backText": "Esse curso ajudou no entendimento de comandos git e do fluxo de trabalho..."
+    },
+    {
+      "title": "GitHub na prática​",
+      "progress": 98,
+      "acquisitionDate": "09/07/2020",
+      "startDate": "09/07/2020",
+      "endDate": "-",
+      "link": "https://app.b7web.com.br/course/github-na-pratica",
+      "image": "https://cdn-images-1.medium.com/max/1200/1*dDNpLKu_oTLzStsDTnkJ-g.png",
+      "platform": "B7 Web",
+      "duration": 1,
+      "instructor": "",
+      "price": "0",
+      "certificate": "",
+      "sourceCode": "",
+      "tags": ["ead", "git","github", "pay", "b7web"],
+      "category": "active",
+      "backText": "Esse curso ajudou no entendimento github e do fluxo de trabalho..."
     }
   ]
 }

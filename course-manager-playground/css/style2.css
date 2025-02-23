@@ -431,3 +431,71 @@ body {
   margin: 0; /* Remove margens padrão */
   padding: 0; /* Remove paddings padrão */
 }
+
+/* SIDE BAR */
+
+/* Estilos para a sidebar fechada */
+.sidebar {
+  height: 100%;
+  width: 50px; /* Largura da sidebar fechada */
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+/* Centraliza os ícones quando a sidebar está fechada */
+.sidebar .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0; /* Espaçamento vertical */
+}
+
+/* Esconde o texto e o ícone de seta quando a sidebar está fechada */
+.sidebar .menu span,
+.sidebar .menu .fa-caret-down {
+  display: none;
+}
+
+/* Ajusta o ícone do botão de abrir/fechar */
+.sidebar .openbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0; /* Espaçamento vertical */
+}
+
+/* Ajusta o ícone do accordion */
+.sidebar .accordion-btn .icon {
+  margin: 0; /* Remove margens para centralizar */
+}
+
+/* Ajusta o ícone dos submenus */
+.sidebar .submenu .icon {
+  margin: 0; /* Remove margens para centralizar */
+}
+
+/* Estilos para a sidebar aberta */
+.sidebar.open {
+  width: 250px; /* Largura da sidebar aberta */
+}
+
+.sidebar.open .menu span,
+.sidebar.open .menu .fa-caret-down {
+  display: inline; /* Mostra o texto e o ícone de seta quando a sidebar está aberta */
+}
+
+/* Estilo para o botão desabilitado */
+.course-button.disabled {
+  background-color: #ccc; /* Cor de fundo mais clara */
+  cursor: not-allowed; /* Cursor indicando que não é clicável */
+  opacity: 0.6; /* Torna o botão mais transparente */
+  color: #444242;
+}

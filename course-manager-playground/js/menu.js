@@ -22,22 +22,62 @@ function toggleAccordion(menuName) {
   accordionContent.classList.toggle('active');
 }
 
+// // Função para alternar o accordion
+// function toggleAccordion(menuName) {
+//   var accordionBtn = document.querySelector('.accordion-btn');
+//   var accordionContent = document.querySelector('.accordion-content');
+
+//   // Fecha todos os outros accordions
+//   var allAccordionBtns = document.querySelectorAll('.accordion-btn');
+//   var allAccordionContents = document.querySelectorAll('.accordion-content');
+//   allAccordionBtns.forEach(function(btn) {
+//     if (btn !== accordionBtn) {
+//       btn.classList.remove('active');
+//     }
+//   });
+//   allAccordionContents.forEach(function(content) {
+//     if (content !== accordionContent) {
+//       content.classList.remove('active');
+//     }
+//   });
+
+//   // Alterna o accordion clicado
+//   accordionBtn.classList.toggle('active');
+//   accordionContent.classList.toggle('active');
+// }
+
 // Função para abrir/fechar o menu lateral
 function openCloseNav() {
-  var w_open = "250px";
-  var w_close = "50px";
+  const sidebar = document.getElementById("mySidebar");
+  const main = document.getElementById("main");
 
-  var mySidebar = document.getElementById("mySidebar").style.width;
-  var main = document.getElementById("main").style.marginLeft;
-
-  if (mySidebar === w_open) {
-    document.getElementById("mySidebar").style.width = w_close;
-    document.getElementById("main").style.marginLeft = w_close;
+  if (sidebar.classList.contains("open")) {
+    sidebar.classList.remove("open");
+    sidebar.style.width = "50px";
+    main.style.marginLeft = "50px";
   } else {
-    document.getElementById("mySidebar").style.width = w_open;
-    document.getElementById("main").style.marginLeft = w_open;
+    sidebar.classList.add("open");
+    sidebar.style.width = "250px";
+    main.style.marginLeft = "250px";
   }
 }
+
+// // Função para abrir/fechar o menu lateral
+// function openCloseNav() {
+//   var w_open = "250px";
+//   var w_close = "50px";
+
+//   var mySidebar = document.getElementById("mySidebar").style.width;
+//   var main = document.getElementById("main").style.marginLeft;
+
+//   if (mySidebar === w_open) {
+//     document.getElementById("mySidebar").style.width = w_close;
+//     document.getElementById("main").style.marginLeft = w_close;
+//   } else {
+//     document.getElementById("mySidebar").style.width = w_open;
+//     document.getElementById("main").style.marginLeft = w_open;
+//   }
+// }
 
 function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
