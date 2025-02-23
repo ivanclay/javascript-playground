@@ -1,5 +1,5 @@
 // URL da imagem padrão
-const defaultImage = "../assets/no-image.jpg";
+const defaultImage = "https://c1.neweggimages.com/NeweggImage/productimage/AKACD2210270XVJ8JB7.jpg";
 
 function renderCourses(containerId, courses) {
   const container = document.getElementById(containerId);
