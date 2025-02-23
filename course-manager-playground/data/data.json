@@ -14,7 +14,8 @@
       "price": "R$ 19.90",
       "certificate": "https://www.udemy.com/certificate/UC-P5OMCO0G/",
       "tags": ["ead", "gamification", "pay", "udemy"],
-      "category": "finished"
+      "category": "finished",
+      "backText": "Este curso ensina como criar cursos online de forma eficiente."
     },
     {
       "title": "Introdução à Gamificação",
@@ -220,7 +221,7 @@
       "instructor": "Balta",
       "certificate": "https://balta.io/certificados/e1691fef-f49e-41a2-81f5-9699c7f6bb76",
       "sourceCode": "https://github.com/ivanclay/JwtAspNet",
-      "tags": ["segurança", "jwt", ".net", "pay", "balta.io"],
+      "tags": ["segurança", "jwt", ".net", "pay", "balta"],
       "category": "finished"
     },
     {
@@ -237,7 +238,115 @@
       "instructor": "Balta",
       "certificate": "https://balta.io/certificados/b0dbb31c-db62-4202-bb1a-58098122718d",
       "sourceCode": "",
-      "tags": ["microservice", ".net", "pay", "balta.io"],
+      "tags": ["microservice", ".net", "pay", "balta"],
+      "category": "finished"
+    },
+    {
+      "id": 3064,
+      "title": "Arquitetura Limpa com .NET",
+      "progress": 89,
+      "acquisitionDate": "25/09/2024",
+      "startDate": "25/09/2024",
+      "endDate": "",
+      "link": "https://balta.io/player/assistir/b7a2a651-9505-4ab3-9fbc-41cc7de348a2",
+      "image": "https://baltaio.blob.core.windows.net/static/images/courses/arquitetura-limpa_banner.jpg",
+      "platform": "Balta.io",
+      "price": "R$ 0.0",
+      "duration": 2.0,
+      "instructor": "Balta",
+      "certificate": "",
+      "sourceCode": "",
+      "tags": ["clean arch", ".net", "pay", "balta"],
+      "category": "finished"
+    },
+    {
+      "id": 3099,
+      "title": "Fundamentos do C#​",
+      "progress": 100,
+      "acquisitionDate": "25/08/2023",
+      "startDate": "25/08/2023",
+      "endDate": "14/11/2023",
+      "link": "https://balta.io/player/assistir/5ef614da-366d-6156-d049-694800000000",
+      "image": "https://baltaio.blob.core.windows.net/static/images/courses/fundamentos-csharp_banner.jpg",
+      "platform": "Balta.io",
+      "price": "R$ 0.0",
+      "duration": 12.0,
+      "instructor": "André Baltieri (Balta)",
+      "certificate": "https://balta.io/certificados/e37ec8c8-0c44-4fc2-9ef1-082ac4208fb2",
+      "sourceCode": "",
+      "tags": ["foundations", "c#", ".net", "pay", "balta"],
+      "category": "finished"
+    },
+    {
+      "id": 3098,
+      "title": "Refatorando para testes de unidade​",
+      "progress": 100,
+      "acquisitionDate": "25/08/2023",
+      "startDate": "07/04/2024",
+      "endDate": "16/04/2024",
+      "link": "https://balta.io/player/assistir/5ef614da-366d-6156-d049-694800000000",
+      "image": "https://baltaio.blob.core.windows.net/static/images/courses/fundamentos-csharp_banner.jpg",
+      "platform": "Balta.io",
+      "price": "R$ 0.0",
+      "duration": 2.0,
+      "instructor": "André Baltieri (Balta)",
+      "certificate": "https://balta.io/certificados/a0e7604b-6211-4cab-b773-567f80209789",
+      "sourceCode": "",
+      "tags": ["refactoring", "test", "c#", ".net", "pay", "balta"],
+      "category": "finished"
+    },
+    {
+      "id": 3097,
+      "title": "Modelando Domínios Ricos",
+      "progress": 100,
+      "acquisitionDate": "25/08/2023",
+      "startDate": "26/08/2023",
+      "endDate": "12/04/2024",
+      "link": "https://balta.io/player/assistir/5c350f62-e717-9a7d-1241-702a00000000",
+      "image": "https://baltaio.blob.core.windows.net/static/images/courses/fundamentos-csharp_banner.jpg",
+      "platform": "Balta.io",
+      "price": "R$ 0.0",
+      "duration": 4.5,
+      "instructor": "André Baltieri (Balta)",
+      "certificate": "https://balta.io/certificados/b90e2824-f958-440e-b2d4-da21a41f13e3",
+      "sourceCode": "",
+      "tags": ["rich domains", "c#", ".net", "pay", "balta"],
+      "category": "finished"
+    },
+    {
+      "id": 3096,
+      "title": "Progressive Web Apps com Blazor Web Assembly",
+      "progress": 100,
+      "acquisitionDate": "25/08/2023",
+      "startDate": "28/03/2024",
+      "endDate": "28/03/2024",
+      "link": "https://balta.io/player/assistir/8fdfff9e-25e6-4141-997f-0ee8cdf2bf05",
+      "image": "https://baltaio.blob.core.windows.net/static/images/courses/progressive-web-apps-com-blazor-webassembly_banner.jpg",
+      "platform": "Balta.io",
+      "price": "R$ 0.0",
+      "duration": 1.4,
+      "instructor": "André Baltieri (Balta)",
+      "certificate": "https://balta.io/certificados/0f415eed-0249-4cca-8319-f12abaa1dfd4",
+      "sourceCode": "",
+      "tags": ["web app", "blazor", "c#", ".net", "pay", "balta"],
+      "category": "finished"
+    },
+    {
+      "id": 2818,
+      "title": "Aplicando Orientação a Objetos em Projetos Reais com C# 11 e .NET 7",
+      "progress": 100,
+      "acquisitionDate": "24/01/2024",
+      "startDate": "24/01/2024",
+      "endDate": "29/01/2024",
+      "link": "https://balta.io/player/assistir/dfa3752e-4bd5-4101-bafb-ff3afcf39930",
+      "image": "https://baltaio.blob.core.windows.net/static/images/courses/aplicando-orientacao-a-objetos-em-projetos-reais-com-csharp-11-e-dotnet-7_banner.jpg",
+      "platform": "Balta.io",
+      "price": "R$ 0.0",
+      "duration": 2.3,
+      "instructor": "André Baltieri (Balta)",
+      "certificate": "https://balta.io/certificados/e018a10d-a75e-4cc7-9510-292b13a436ac",
+      "sourceCode": "",
+      "tags": ["web app", "blazor", "c#", ".net", "pay", "balta"],
       "category": "finished"
     },
     {
@@ -325,7 +434,6 @@
       "tags": ["git", "github", "free", "udemy"],
       "category": "finished"
     },
-
     {
       "title": "Randstad - Backend com .NET",
       "progress": 0,
@@ -430,7 +538,6 @@
       "tags": ["ead", "api", ".net", "pay", "udemy"],
       "category": "wishlist"
     },
-
     {
       "title": "Desafio de Calistenia em Casa",
       "progress": 9,
@@ -574,7 +681,6 @@
       "tags": ["ead", "ingles", "free", "hotmart"],
       "category": "notechnology"
     },
-
     {
       "title": "Make an E-Commerce Website with Blazor WebAssembly in .NET 6",
       "progress": 50,
@@ -646,15 +752,16 @@
       "category": "active"
     },
     {
-      "title": "Fullstack .NET",
-      "progress": 77,
+      "id": 3074,
+      "title": "Fullstack .NET (.NET, Blazor AWSM)",
+      "progress": 90,
       "acquisitionDate": "30/01/2024",
       "startDate": "06/02/2024",
       "endDate": "",
-      "link": "https://balta.io/",
-      "image": "https://baltaio.blob.core.windows.net/static/images/light/balta-logo.svg",
-      "platform": "Balta",
-      "tags": ["ead", ".net", "pay", "balta"],
+      "link": "https://balta.io/player/assistir/c4bfdf26-8709-46f4-b918-d59e78953e4a",
+      "image": "https://baltaio.blob.core.windows.net/static/images/courses/fullstack-dotnet_banner.jpg",
+      "platform": "Balta.io",
+      "tags": ["ead", ".net", "blazor", "pay", "balta"],
       "category": "active"
     },
     {
@@ -751,7 +858,7 @@
     {
       "title": "Arquitetura de Microsserviços do 0 com ASP.NET, .NET 6 e C#",
       "progress": 40,
-      "duration": 0,
+      "duration": 24.5,
       "acquisitionDate": "30/01/2023",
       "startDate": "30/01/2023",
       "endDate": "",
@@ -999,7 +1106,7 @@
       "image": "https://hotmart.s3.amazonaws.com/product_pictures/7d2aa31e-f048-4ea2-9ecf-6edb8681071d/Designsemnome3.png",
       "platform": "Hotmart",
       "payment": "R$ 297,00",
-      "tags": ["ead", "designpatterns", "pay", "hotmart"],
+      "tags": ["ead", "DesignPatterns", "pay", "Hotmart"],
       "category": "active"
     },
     {
@@ -1211,7 +1318,41 @@
       "price": "R$ 345,80",
       "certificate": "",
       "sourceCode": "",
-      "tags": ["ead", "gamification", "pay", "hotmart"],
+      "tags": ["ead", "redis", "database", "mongo", "pay", "hotmart"],
+      "category": "active"
+    },
+    {
+      "title": "Building Food Ordering App using Xamarin.Forms​",
+      "progress": 15,
+      "acquisitionDate": "09/07/2020",
+      "startDate": "09/07/2020",
+      "endDate": "-",
+      "link": "https://technoacademy.net/courses/enrolled/1052113",
+      "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/Hgr52t96QDyojqfHxMcJ",
+      "platform": "Techno Academy",
+      "duration": 40,
+      "instructor": "Sekhar",
+      "price": "6.00 USD",
+      "certificate": "",
+      "sourceCode": "",
+      "tags": ["ead", "xamarin forms", "pay", "Techno Academy"],
+      "category": "active"
+    },
+    {
+      "title": "Git e contribuições para projetos Open Source",
+      "progress": 15,
+      "acquisitionDate": "09/07/2020",
+      "startDate": "09/07/2020",
+      "endDate": "-",
+      "link": "https://www.udemy.com/course/git-e-github/learn/lecture/6995588",
+      "image": "https://img-c.udemycdn.com/course/240x135/1202008_29f8_2.jpg",
+      "platform": "Udemy",
+      "duration": 5,
+      "instructor": "Bruno Orlandi",
+      "price": "",
+      "certificate": "",
+      "sourceCode": "",
+      "tags": ["ead", "git","github", "free", "udemy"],
       "category": "active"
     }
   ]
