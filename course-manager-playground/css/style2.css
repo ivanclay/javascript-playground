@@ -176,3 +176,86 @@ body {
 .progress-bar-container:hover .progress-tooltip {
   opacity: 1;
 }
+
+/* ACCORDION */
+
+/* Estilos para o accordion */
+.accordion-btn {
+  width: 100%;
+  text-align: left;
+  padding: 12px 15px;
+  border: none;
+  background-color: #111;
+  /* background-color: #f8f9fa; */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  color: white;
+  border-bottom: 1px solid white;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-btn:hover {
+  background-color: #e9ecef;
+  color: #111;
+}
+
+.accordion-btn.active {
+  background-color: #111;
+  /* background-color: #007bff; */
+  color: white;
+}
+
+.accordion-btn.active .fa-caret-down {
+  transform: rotate(180deg);
+}
+
+.accordion-btn .fa-caret-down {
+  transition: transform 0.3s ease;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px 15px;
+  background-color: #111;
+  /* background-color: #fff; */
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-content.active {
+  display: block;
+}
+
+.accordion-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.accordion-content li {
+  margin: 8px 0;
+}
+
+.accordion-content a {
+  text-decoration: none;
+  color: white;
+  /* color: #333; */
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-content a:hover {
+  background-color: #f1f1f1;
+  color: #111;
+}
+
+.accordion-content a i {
+  margin-right: 10px;
+  /* color: #007bff; */
+  color: white;
+}
