@@ -219,7 +219,7 @@
       "duration": 4.0,
       "instructor": "Balta",
       "certificate": "https://balta.io/certificados/e1691fef-f49e-41a2-81f5-9699c7f6bb76",
-      "source_code": "https://github.com/ivanclay/JwtAspNet",
+      "sourceCode": "https://github.com/ivanclay/JwtAspNet",
       "tags": ["segurança", "jwt", ".net", "pay", "balta.io"],
       "category": "finished"
     },
@@ -236,7 +236,7 @@
       "duration": 2.0,
       "instructor": "Balta",
       "certificate": "https://balta.io/certificados/b0dbb31c-db62-4202-bb1a-58098122718d",
-      "source_code": "",
+      "sourceCode": "",
       "tags": ["microservice", ".net", "pay", "balta.io"],
       "category": "finished"
     },
@@ -253,7 +253,7 @@
       "duration": 2.0,
       "instructor": "Manoel Fernando Neto",
       "certificate": "https://www.udemy.com/certificate/UC-3bb63ae9-70b5-4bd8-904f-5d8023e53b82/",
-      "source_code": "",
+      "sourceCode": "",
       "tags": ["cypress", "teste", "pay", "udemy"],
       "category": "finished"
     },
@@ -270,7 +270,7 @@
       "duration": 5.5,
       "instructor": "Walmyr Filho",
       "certificate": "https://www.udemy.com/certificate/UC-b6b2c6be-9fe9-4b6c-ac66-ba38c99fd1ea/",
-      "source_code": "",
+      "sourceCode": "",
       "tags": ["cypress", "teste", "pay", "udemy"],
       "category": "finished"
     },
@@ -287,7 +287,7 @@
       "instructor": "Fabricio Veronez",
       "price": "R$ 0,00",
       "certificate": "https://certificado.devopspro.com.br/certificado?code=999d0354-68f4-4870-9de3-362cdbb2bb38",
-      "source_code": "",
+      "sourceCode": "",
       "tags": ["devops", "pay", "devopspro"],
       "category": "finished"
     },
@@ -304,7 +304,7 @@
       "instructor": "Fabricio Veronez",
       "price": "R$ 0,00",
       "certificate": "https://certificado.devopspro.com.br/certificado?code=e34833ba-9b2b-4784-a7d9-b009547aa07e",
-      "source_code": "",
+      "sourceCode": "",
       "tags": ["linux", "pay", "devopspro"],
       "category": "finished"
     },
@@ -321,7 +321,7 @@
       "instructor": "Willian Justen de Vasconcellos",
       "price": "R$ 0,00",
       "certificate": "Gratuito sem certificado!",
-      "source_code": "",
+      "sourceCode": "",
       "tags": ["git", "github", "free", "udemy"],
       "category": "finished"
     },
@@ -1210,7 +1210,7 @@
       "instructor": "",
       "price": "R$ 345,80",
       "certificate": "",
-      "source_code": "",
+      "sourceCode": "",
       "tags": ["ead", "gamification", "pay", "hotmart"],
       "category": "active"
     }
