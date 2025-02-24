@@ -1390,6 +1390,42 @@
       "tags": ["ead", "git","github", "pay", "b7web"],
       "category": "active",
       "backText": "Esse curso ajudou no entendimento github e do fluxo de trabalho..."
+    },
+    {
+      "title": "Git e Github",
+      "progress": 99,
+      "acquisitionDate": "09/07/2020",
+      "startDate": "09/07/2020",
+      "endDate": "-",
+      "link": "https://plataforma.devopspro.com.br/courses/af00ffe1-1d2f-4dce-9a19-780e59273907/8/1/4/conteudos?capitulo=4&conteudo=1157",
+      "image": "https://cdn-images-1.medium.com/max/1200/1*dDNpLKu_oTLzStsDTnkJ-g.png",
+      "platform": "DevopsPro",
+      "duration": 2,
+      "instructor": "Fabricio Veronez",
+      "price": "0",
+      "certificate": "",
+      "sourceCode": "",
+      "tags": ["ead", "git","github", "pay", "devopspro"],
+      "category": "active",
+      "backText": "Esse curso ajudou no entendimento github e do fluxo de trabalho..."
+    },
+    {
+      "title": "Docker 2.0",
+      "progress": 58,
+      "acquisitionDate": "09/07/2020",
+      "startDate": "09/07/2020",
+      "endDate": "-",
+      "link": "https://plataforma.devopspro.com.br/courses/af00ffe1-1d2f-4dce-9a19-780e59273907/8/1/21/conteudos?capitulo=21&conteudo=557",
+      "image": "",
+      "platform": "DevopsPro",
+      "duration": 2,
+      "instructor": "Fabricio Veronez",
+      "price": "0",
+      "certificate": "",
+      "sourceCode": "",
+      "tags": ["ead", "docker", "pay", "devopspro"],
+      "category": "active",
+      "backText": ""
     }
   ]
 }
