@@ -54,6 +54,23 @@
       "backText": ""
     },
     {
+      "title": "Segurança em APIs ASP.NET com JWT e Bearer Authentication",
+      "progress": 100,
+      "acquisitionDate": "25/08/2023",
+      "startDate": "30/08/2023",
+      "endDate": "24/09/2023",
+      "link": "https://balta.io/player/assistir/c98af94e-8d21-4a8c-a9af-1549078eb72b",
+      "image": "https://d335luupugsy2.cloudfront.net/images%2Flanding_page%2F617411%2Fbalta.io.png",
+      "platform": "Balta.io",
+      "price": "R$ 0.0",
+      "duration": 4.0,
+      "instructor": "Balta",
+      "certificate": "https://balta.io/certificados/e1691fef-f49e-41a2-81f5-9699c7f6bb76",
+      "sourceCode": "https://github.com/ivanclay/JwtAspNet",
+      "tags": ["segurança", "jwt", ".net", "pay", "balta"],
+      "category": "finished"
+    },
+    {
       "title": "Deploying .Net Microservices with K8s, AKS and Azure DevOps",
       "progress": 1,
       "acquisitionDate": "",
@@ -496,23 +513,6 @@
       "instructor": "Walmyr Filho",
       "certificate": "https://www.udemy.com/certificate/UC-f4011eac-41df-401e-9448-bd2526f7c136/",
       "tags": ["cypress", "teste", "pay", "udemy"],
-      "category": "finished"
-    },
-    {
-      "title": "Segurança em APIs ASP.NET com JWT e Bearer Authentication",
-      "progress": 100,
-      "acquisitionDate": "25/08/2023",
-      "startDate": "30/08/2023",
-      "endDate": "24/09/2023",
-      "link": "https://balta.io/player/assistir/c98af94e-8d21-4a8c-a9af-1549078eb72b",
-      "image": "https://d335luupugsy2.cloudfront.net/images%2Flanding_page%2F617411%2Fbalta.io.png",
-      "platform": "Balta.io",
-      "price": "R$ 0.0",
-      "duration": 4.0,
-      "instructor": "Balta",
-      "certificate": "https://balta.io/certificados/e1691fef-f49e-41a2-81f5-9699c7f6bb76",
-      "sourceCode": "https://github.com/ivanclay/JwtAspNet",
-      "tags": ["segurança", "jwt", ".net", "pay", "balta"],
       "category": "finished"
     },
     {
