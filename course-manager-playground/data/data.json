@@ -37,9 +37,9 @@
     },
     {
       "title": "ASP.NET 8 - Criando Minimal API + EF Core 8",
-      "progress": 0,
-      "acquisitionDate": "",
-      "startDate": "",
+      "progress": 18,
+      "acquisitionDate": "14/12/2024",
+      "startDate": "14/12/2024",
       "endDate": "",
       "link": "https://www.udemy.com/course/aspnet-minimal-api/?course_id=5573392&couponCode=KEEPLEARNINGBR",
       "image": "https://img-c.udemycdn.com/course/240x135/5573392_2c13_4.jpg",
@@ -48,7 +48,7 @@
       "instructor": "Vinícius de Andrade",
       "price": "130.90",
       "certificate": "",
-      "sourceCode": "",
+      "sourceCode": "https://github.com/ivanclay/aspnet-minimal-api",
       "tags": ["ead", "asp.net", "aspnet", "minimalapi", "Entity", "pay", "devopspro"],
       "category": "active",
       "backText": ""
