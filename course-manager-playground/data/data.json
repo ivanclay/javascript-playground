@@ -1,7 +1,7 @@
 {
   "Courses": [
     {
-      "title": "Curso Completo MongoDB 2023 [NoSQL do Básico ao Avançado!]",
+      "title": "Curso Completo MongoDB 2023 [NoSQL do Básico ao Avançado!",
       "progress": 10,
       "acquisitionDate": "24/05/2021",
       "startDate": "24/05/2021",
@@ -37,10 +37,10 @@
     },
     {
       "title": "ASP.NET 8 - Criando Minimal API + EF Core 8",
-      "progress": 18,
+      "progress": 100,
       "acquisitionDate": "14/12/2024",
       "startDate": "14/12/2024",
-      "endDate": "",
+      "endDate": "02/03/2025",
       "link": "https://www.udemy.com/course/aspnet-minimal-api/?course_id=5573392&couponCode=KEEPLEARNINGBR",
       "image": "https://img-c.udemycdn.com/course/240x135/5573392_2c13_4.jpg",
       "platform": "Udemy",
