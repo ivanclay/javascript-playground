@@ -47,7 +47,7 @@
       "duration": 8.5,
       "instructor": "Vinícius de Andrade",
       "price": "130.90",
-      "certificate": "",
+      "certificate": "https://www.udemy.com/certificate/UC-994fa04a-125f-4216-b15a-ecd39c140d2b/",
       "sourceCode": "https://github.com/ivanclay/aspnet-minimal-api",
       "tags": ["ead", "asp.net", "aspnet", "minimalapi", "Entity", "pay", "devopspro"],
       "category": "active",
