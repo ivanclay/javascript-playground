@@ -71,6 +71,23 @@
       "category": "finished"
     },
     {
+      "title": ".NET 8 Microservices: DDD, CQRS, Vertical/Clean Architecture",
+      "progress": 1,
+      "acquisitionDate": "08/03/2025",
+      "startDate": "08/03/2025",
+      "endDate": "",
+      "link": "https://www.udemy.com/course/microservices-architecture-and-implementation-on-dotnet/",
+      "image": "https://img-c.udemycdn.com/course/240x135/3134552_3cd0_4.jpg",
+      "platform": "Udemy",
+      "duration": 28.5,
+      "instructor": "Mehmet Ozkaya",
+      "price": "154.90",
+      "certificate": "",
+      "tags": ["ead", ".net 8","ddd", "cqrs","vertical slice", "clean archtecture", "subscribe", "udemy"],
+      "category": "subscribe",
+      "backText": "You will learn how to build Microservices on .Net platforms which used Asp.Net Web API, Docker, RabbitMQ, MassTransit, Grpc, Yarp API Gateway, PostgreSQL, Redis, SQLite, SqlServer, Marten, Entity Framework Core, CQRS, MediatR, DDD, Vertical and Clean Architecture implementation using latest codes and best practices of .NET 8 on cloud-native environments. You will develop e-commerce modules over Product, Basket, Discount and Ordering microservices with NoSQL (PostgreSQL DocumentDB, Redis) and Relational databases (SQLite, Sql Server) with communicating over RabbitMQ Event Driven Communication and using Yarp API Gateway. You can find Microservices Architecture and Step by Step Implementation on .NET which step by step developing this course with extensive explanations and details."
+    },
+    {
       "title": "Deploying .Net Microservices with K8s, AKS and Azure DevOps",
       "progress": 1,
       "acquisitionDate": "",
